@@ -8,6 +8,7 @@
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
+	padding: 0 20px;
 	p {
 		margin: 0;
 		font-weight: 300;
@@ -16,5 +17,9 @@
 		color: #3A6073;
 		font-weight: 700;
 		text-decoration: none;
+	}
+	@media (max-width: $screen-xs) {
+		h1 { font-size: 28px; }
+		p { font-size: 14px; }
 	}
 }
