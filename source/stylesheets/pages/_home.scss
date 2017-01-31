@@ -1,25 +1,13 @@
-.waiting-home {
-	
-	background: linear-gradient(to left, #50C9C3 , #96DEDA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	        
-	        
-	color: white;
+.discover-more {
+	height: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
-	padding: 0 20px;
-	p {
-		margin: 0;
-		font-weight: 300;
-	}
 	a {
-		color: #3A6073;
-		font-weight: 700;
-		text-decoration: none;
+		color: $poulpe-black;
+		font-size: 24px;
 	}
-	@media (max-width: $screen-xs) {
-		h1 { font-size: 28px; }
-		p { font-size: 14px; }
+	p {
+		margin-bottom: 0;
 	}
 }
