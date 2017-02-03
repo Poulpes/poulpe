@@ -1,0 +1,26 @@
+.project-description {
+  h1 {
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+}
+.project-category {
+  font-family: $header-font;
+  font-style: italic;
+}
+.project-credits {
+  margin: 0;
+  font-size: 12px;
+  a {
+    color: $poulpe-black;
+    opacity: 0.5;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

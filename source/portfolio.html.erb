@@ -1,0 +1,17 @@
+<% project = data.portfolio[project] %>
+
+<div class="poulpe-container">
+  <div class="banner-project" style="background-image: url(<%= image_path project.img_banner %> ); ">
+  </div>
+  <div class="project-description text-center">   
+    <h1><%= project.name %></h1>
+    <p><%= project.description %></p>
+    <% if project.credits %>
+      <p class="project-credits"><%= project.credits %></p>
+    <% end %>
+    <span class="project-category"><%= project.medium %></span>
+
+  </div>
+
+
+</div>

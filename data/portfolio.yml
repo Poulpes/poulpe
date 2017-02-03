@@ -1,0 +1,36 @@
+yoo:
+  name: YOÔ
+  img_thumbnail: images/work/yoo/yoo-thumbnail.jpg
+  img_banner: images/work/yoo/yoo-banner.jpg
+  url: /work/yoo.html
+  category: fullstack
+  link: http://www.yoo.paris/
+  description: |
+      YOÔ est une nouvelle plateforme innovante mettant en relation des marques
+      et des influenceurs.
+      <br />
+      Techno : Ruby on Rails 
+  medium: Développement web fullstack • UI-UX • Web Design
+  # images:
+  #   - url: images/work/kwaala/kwaala-1.jpg
+  #   - url: images/work/kwaala/kwaala-2.jpg
+  credits: |
+    Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
+wemind:
+  name: Wemind
+  img_thumbnail: images/work/wemind/wemind-thumbnail.jpg
+  img_banner: images/work/wemind/wemind-banner.jpg
+  url: /work/wemind.html
+  category: fullstack
+  link: http://beta.wemind.io/
+  description: |
+      YOÔ est une nouvelle plateforme innovante mettant en relation des marques
+      et des influenceurs.
+      <br />
+      Techno : Ruby on Rails 
+  medium: Développement web fullstack
+  # images:
+  #   - url: images/work/kwaala/kwaala-1.jpg
+  #   - url: images/work/kwaala/kwaala-2.jpg
+  credits: |
+    Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>

@@ -20,10 +20,23 @@
 <div class="discover-more text-center">
   <div class="discover-more-content">
     <p>Découvrez nos projets</p>
-    <div class="arrow-container fadeInArrow">
+    <div class="arrow-container">
       <a href="#work-container">
-        <i class="fa fa-angle-down scroll-btn"></i>
+        <i class="fa fa-angle-down"></i>
       </a>
     </div>
+  </div>
+</div>
+
+<div class="poulpe-container">
+
+  <div id="work-container">
+    <% data.portfolio.each do |name, project| %>
+      <div class="project-container">
+        <% link_to "/work/#{name}.html" do %>
+          <%= image_tag project.img_thumbnail %>
+        <% end %>
+      </div>
+    <% end %>
   </div>
 </div>

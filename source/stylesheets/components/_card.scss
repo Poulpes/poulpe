@@ -1,0 +1,11 @@
+#work-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-container {
+  flex: 0 0 33%;
+  img {
+    width: 100%;
+  }
+}

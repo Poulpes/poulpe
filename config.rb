@@ -31,6 +31,11 @@ activate :autoprefixer
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
+
+data.portfolio.keys.each do |project|
+  proxy "/work/#{project}.html", "portfolio.html", :locals => { project: project }
+end
+
 ###
 # Helpers
 ###
