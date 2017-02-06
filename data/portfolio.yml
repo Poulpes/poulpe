@@ -11,9 +11,9 @@ yoo:
       <br />
       Techno : Ruby on Rails 
   medium: Développement web fullstack • UI-UX • Web Design
-  # images:
-  #   - url: images/work/kwaala/kwaala-1.jpg
-  #   - url: images/work/kwaala/kwaala-2.jpg
+  images:
+    - url: images/work/kwaala/kwaala-1.jpg
+    - url: images/work/kwaala/kwaala-2.jpg
   credits: |
     Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
 wemind:
@@ -29,8 +29,43 @@ wemind:
       <br />
       Techno : Ruby on Rails 
   medium: Développement web fullstack
+  images:
+    - url: images/work/kwaala/kwaala-1.jpg
+    - url: images/work/kwaala/kwaala-2.jpg
+  credits: |
+    Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
+pacorabanne:
+  name: Paco Rabanne
+  img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
+  img_banner: images/work/pacorabanne/blackxs-banner.jpg
+  url: /work/pacorabanne.html
+  category: frontend
+  description: |
+      Jeux concours pour promouvoir les parfums Black XS et One Milion de Paco Rabanne.
+      Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
+      <br />
+      Techno : Ruby on Rails
+  medium: Développement Frontend
   # images:
   #   - url: images/work/kwaala/kwaala-1.jpg
   #   - url: images/work/kwaala/kwaala-2.jpg
   credits: |
-    Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
+    Agence : Ant • Direction Artistique : <a href="#">Rosbeef</a>
+mamagoto:
+  name: Mamagoto
+  img_thumbnail: images/work/mamagoto/mamagoto-thumbnail.jpg
+  img_banner: images/work/mamagoto/mamagoto-banner.jpg
+  url: /work/mamagoto.html
+  category: frontend
+  link: http://wwww.mamagoto.fr/
+  description: |
+      Identité visuelle, web design et développement web pour Mamagoto 
+      (qui veut dire "dînette" en japonais). Mamagoto est un restaurant aux influences
+      franco-japonaise.
+      <br />
+      Techno : Middleman 
+  medium: Direction Artistique • Web Design • Développement Frontend
+  images:
+    - url: images/work/mamagoto/mamagoto-1.jpg
+    - url: images/work/mamagoto/mamagoto-2.jpg
+    - url: images/work/mamagoto/mamagoto-3.jpg

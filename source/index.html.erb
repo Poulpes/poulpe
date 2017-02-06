@@ -12,8 +12,8 @@
       </p>
     </div>
   </div>
-  <div class="banner-work" style="background-image: url(<%= image_path 'mamagoto-4.jpg' %> ); ">
-    
+  <div class="banner-work" style="background-image: url(<%= image_path data.portfolio.values.first.img_thumbnail %> ); ">
+    <%= link_to "", "/work/#{data.portfolio.keys.first}.html", class: "banner-link" %>
   </div>
 </div>
 
