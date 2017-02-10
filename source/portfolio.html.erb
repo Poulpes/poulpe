@@ -5,10 +5,13 @@
 <div class="portfolio-container">
   <div class="project-description text-center">   
     <h1><%= project.name %></h1>
-    <p><%= project.description %></p>
-    <% if project.credits %>
-      <p class="project-credits"><%= project.credits %></p>
-    <% end %>
+    <p>
+      <%= project.description %>
+      <% if project.link %>
+        <%= link_to "See website", project.link, target: "blank" %>
+      <% end %>
+    </p>
+
     <span class="project-category"><%= project.medium %></span>
   </div>
   <div class="project-images text-center">
@@ -16,6 +19,8 @@
       <%= image_tag image.url, class: "img-responsive project-image" %>
     <% end %>
   </div>
-
+  <% if project.credits %>
+    <p class="project-credits text-right"><%= project.credits %></p>
+  <% end %>
 
 </div>

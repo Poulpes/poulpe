@@ -6,6 +6,15 @@
   p {
     margin-bottom: 30px;
   }
+  a {
+    color: $poulpe-black;
+    font-weight: bolder;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
 .project-category {
   font-family: $header-font;
@@ -30,4 +39,7 @@
 .project-image {
   margin: auto;
   margin-bottom: 10px;
+}
+.portfolio-container {
+  margin-bottom: 30px;
 }

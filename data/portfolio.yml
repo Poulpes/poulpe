@@ -9,11 +9,13 @@ yoo:
       YOÔ est une nouvelle plateforme innovante mettant en relation des marques
       et des influenceurs.
       <br />
-      Techno : Ruby on Rails 
+      Techno : Ruby on Rails
+      <br />
+      <br /> 
   medium: Développement web fullstack • UI-UX • Web Design
   images:
-    - url: images/work/kwaala/kwaala-1.jpg
-    - url: images/work/kwaala/kwaala-2.jpg
+    - url: images/work/yoo/yoo-1.jpg
+    - url: images/work/yoo/yoo-2.jpg
   credits: |
     Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
 wemind:
@@ -27,7 +29,9 @@ wemind:
       YOÔ est une nouvelle plateforme innovante mettant en relation des marques
       et des influenceurs.
       <br />
-      Techno : Ruby on Rails 
+      Techno : Ruby on Rails
+      <br />
+      <br /> 
   medium: Développement web fullstack
   images:
     - url: images/work/kwaala/kwaala-1.jpg
@@ -46,9 +50,9 @@ pacorabanne:
       <br />
       Techno : Ruby on Rails
   medium: Développement Frontend
-  # images:
-  #   - url: images/work/kwaala/kwaala-1.jpg
-  #   - url: images/work/kwaala/kwaala-2.jpg
+  images:
+    - url: images/work/kwaala/kwaala-1.jpg
+    - url: images/work/kwaala/kwaala-2.jpg
   credits: |
     Agence : Ant • Direction Artistique : <a href="#">Rosbeef</a>
 mamagoto:
@@ -63,9 +67,44 @@ mamagoto:
       (qui veut dire "dînette" en japonais). Mamagoto est un restaurant aux influences
       franco-japonaise.
       <br />
-      Techno : Middleman 
+      Techno : Middleman
+      <br />
+      <br /> 
   medium: Direction Artistique • Web Design • Développement Frontend
   images:
     - url: images/work/mamagoto/mamagoto-1.jpg
     - url: images/work/mamagoto/mamagoto-2.jpg
     - url: images/work/mamagoto/mamagoto-3.jpg
+kwaala:
+  name: Kwaala
+  img_thumbnail: images/work/kwaala/kwaala-thumbnail.jpg
+  bg_img: images/work/kwaala/kwaala-banner.jpg
+  category: frontend
+  url: /work/kwaala.html
+  link: http://kwaala.fr/
+  description: |
+      Kwaala est une application web basée sur l'économie collaborative. 
+      Elle permet à ses utilisateurs de louer du matériel de voyage entre particulier.
+      <br />
+      <br />
+  medium: Direction Artistique • Web Design • Développement Frontend 
+  images:
+    - url: images/work/kwaala/kwaala-1.jpg
+    - url: images/work/kwaala/kwaala-2.jpg
+lareserve:
+  name: La Réserve
+  img_thumbnail: images/work/lareserve/lareserve-thumbnail.jpg
+  category: fullstack
+  url: /work/lareserve.html
+  link: http://www.lareserve.io/
+  description: |
+      La Réserve est un logiciel SAAS de gestion des réservations pour les 
+      restaurants. Il facilite l'organisation des réservations, des tables,
+      des équipes et clients. 
+      <br />
+      Technos : Ruby on Rails
+      <br />
+      <br />
+  medium: Direction Artistique • Web Design • Développement fullstack
+  images:
+    - url: images/work/lareserve/reserve-1.jpg
