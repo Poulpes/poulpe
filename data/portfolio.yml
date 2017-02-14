@@ -34,27 +34,28 @@ wemind:
       <br /> 
   medium: Développement web fullstack
   images:
-    - url: images/work/kwaala/kwaala-1.jpg
-    - url: images/work/kwaala/kwaala-2.jpg
+    - url: images/work/wemind/wemind-1.jpg
+    - url: images/work/wemind/wemind-2.jpg
+    - url: images/work/wemind/wemind-thumbnail.jpg.jpg
   credits: |
     Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
-pacorabanne:
-  name: Paco Rabanne
-  img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
-  img_banner: images/work/pacorabanne/blackxs-banner.jpg
-  url: /work/pacorabanne.html
-  category: frontend
-  description: |
-      Jeux concours pour promouvoir les parfums Black XS et One Milion de Paco Rabanne.
-      Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
-      <br />
-      Techno : Ruby on Rails
-  medium: Développement Frontend
-  images:
-    - url: images/work/kwaala/kwaala-1.jpg
-    - url: images/work/kwaala/kwaala-2.jpg
-  credits: |
-    Agence : Ant • Direction Artistique : <a href="#">Rosbeef</a>
+# pacorabanne:
+#   name: Paco Rabanne
+#   img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
+#   img_banner: images/work/pacorabanne/blackxs-banner.jpg
+#   url: /work/pacorabanne.html
+#   category: frontend
+#   description: |
+#       Jeux concours pour promouvoir les parfums Black XS et One Milion de Paco Rabanne.
+#       Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
+#       <br />
+#       Techno : Ruby on Rails
+#   medium: Développement Frontend
+#   images:
+#     - url: images/work/kwaala/kwaala-1.jpg
+#     - url: images/work/kwaala/kwaala-2.jpg
+#   credits: |
+#     Agence : Ant • Direction Artistique : <a href="#">Rosbeef</a>
 mamagoto:
   name: Mamagoto
   img_thumbnail: images/work/mamagoto/mamagoto-thumbnail.jpg
@@ -78,7 +79,7 @@ mamagoto:
 kwaala:
   name: Kwaala
   img_thumbnail: images/work/kwaala/kwaala-thumbnail.jpg
-  bg_img: images/work/kwaala/kwaala-banner.jpg
+  img_banner: images/work/kwaala/kwaala-banner.jpg
   category: frontend
   url: /work/kwaala.html
   link: http://kwaala.fr/
@@ -91,6 +92,7 @@ kwaala:
   images:
     - url: images/work/kwaala/kwaala-1.jpg
     - url: images/work/kwaala/kwaala-2.jpg
+    - url: images/work/kwaala/kwaala-thumbnail.jpg
 lareserve:
   name: La Réserve
   img_thumbnail: images/work/lareserve/lareserve-thumbnail.jpg
