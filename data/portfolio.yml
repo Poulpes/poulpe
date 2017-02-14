@@ -34,11 +34,12 @@ wemind:
       <br /> 
   medium: Développement web fullstack
   images:
+    - url: images/work/wemind/wemind-thumbnail.jpg
     - url: images/work/wemind/wemind-1.jpg
     - url: images/work/wemind/wemind-2.jpg
-    - url: images/work/wemind/wemind-thumbnail.jpg.jpg
+    - url: images/work/wemind/wemind-3.jpg
   credits: |
-    Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
+    Direction Artistique : <a href="http://antonylegrand.com/">Antony Legrand</a>
 # pacorabanne:
 #   name: Paco Rabanne
 #   img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
@@ -110,3 +111,23 @@ lareserve:
   medium: Direction Artistique • Web Design • Développement fullstack
   images:
     - url: images/work/lareserve/reserve-1.jpg
+eticss:
+  img_thumbnail: images/work/eticss/eticss-thumbnail.jpg
+  img_banner: images/work/eticss/eticss-banner.jpg
+  category: fullstack
+  url: /work/eticss.html
+  link: http://www.eticss.fr/
+  description: |
+      Web development for eTICSS. <br />eTICSS project targets a better coordination 
+      between health and social actors working for the people living north 
+      of Saône and Loire department
+      <br />
+      Technos : Ruby on Rails
+      <br />
+      <br />
+  medium: Développement fullstack
+  images:
+    - url: images/work/eticss/eticss-thumbnail.jpg
+    - url: images/work/eticss/eticss-1.jpg
+  credit: |
+    En collaboration avec <a href="#">Agence Beaurepaire</a>
