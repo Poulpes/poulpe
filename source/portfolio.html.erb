@@ -15,9 +15,19 @@
     <span class="project-category"><%= project.medium %></span>
   </div>
   <div class="project-images text-center">
-    <% project.images.each do |image| %>
-      <%= image_tag image.url, class: "img-responsive project-image" %>
+    <% if project.images %>
+      <% project.images.each do |image| %>
+        <%= image_tag image.url, class: "img-responsive project-image" %>
+      <% end %>
     <% end %>
+    <% if project.videos %>
+      <% project.videos.each do |video| %>
+        <video src="/<%= video.url %>" autoplay="true" loop="true" class="img-responsive"></video>
+        <%#= video_tag("video.url")%>
+      <% end %>
+    <% end %>
+
+
   </div>
   <% if project.credits %>
     <p class="project-credits text-right"><%= project.credits %></p>

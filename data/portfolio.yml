@@ -52,9 +52,11 @@ pacorabanne:
       <br />
       Techno : Ruby on Rails
   medium: Développement Frontend
-  images:
-    - url: images/work/kwaala/kwaala-1.jpg
-    - url: images/work/kwaala/kwaala-2.jpg
+  videos:
+    - url: images/work/pacorabanne/blackxs-1.mp4
+  # images:
+  #   - url: images/work/kwaala/kwaala-1.jpg
+  #   - url: images/work/kwaala/kwaala-2.jpg
   credits: |
     En collaboration avec <span>Ant</span>
 mamagoto:
