@@ -40,23 +40,23 @@ wemind:
     - url: images/work/wemind/wemind-3.jpg
   credits: |
     Direction Artistique : <a href="http://antonylegrand.com/">Antony Legrand</a>
-# pacorabanne:
-#   name: Paco Rabanne
-#   img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
-#   img_banner: images/work/pacorabanne/blackxs-banner.jpg
-#   url: /work/pacorabanne.html
-#   category: frontend
-#   description: |
-#       Jeux concours pour promouvoir les parfums Black XS et One Milion de Paco Rabanne.
-#       Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
-#       <br />
-#       Techno : Ruby on Rails
-#   medium: Développement Frontend
-#   images:
-#     - url: images/work/kwaala/kwaala-1.jpg
-#     - url: images/work/kwaala/kwaala-2.jpg
-#   credits: |
-#     Agence : Ant • Direction Artistique : <a href="#">Rosbeef</a>
+pacorabanne:
+  name: Paco Rabanne
+  img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
+  img_banner: images/work/pacorabanne/blackxs-banner.jpg
+  url: /work/pacorabanne.html
+  category: frontend
+  description: |
+      Jeux concours pour promouvoir les parfums Black XS et One Milion de Paco Rabanne.
+      Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
+      <br />
+      Techno : Ruby on Rails
+  medium: Développement Frontend
+  images:
+    - url: images/work/kwaala/kwaala-1.jpg
+    - url: images/work/kwaala/kwaala-2.jpg
+  credits: |
+    En collaboration avec <span>Ant</span>
 mamagoto:
   name: Mamagoto
   img_thumbnail: images/work/mamagoto/mamagoto-thumbnail.jpg
