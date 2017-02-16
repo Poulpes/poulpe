@@ -22,7 +22,7 @@
     <% end %>
     <% if project.videos %>
       <% project.videos.each do |video| %>
-        <video src="/<%= video.url %>" autoplay="true" loop="true" class="img-responsive"></video>
+        <video src="/<%= video.url %>" autoplay="true" loop="true" class="img-responsive project-image"></video>
         <%#= video_tag("video.url")%>
       <% end %>
     <% end %>
