@@ -1,15 +1,16 @@
+<% navbar_color = color %>
 <div class="navbar-wagon">
   <!-- Logo -->
   <% link_to "/", class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo.png" %>
+    <%= image_tag "logo-#{navbar_color}.png" %>
   <% end %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <%= link_to "Portfolio", "/", class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "L'agence", "#", class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Contact", "#", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Portfolio", "/", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color}" %>
+    <%= link_to "L'agence", "#", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color}" %>
+    <%= link_to "Contact", "#", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color}" %>
 
   </div>
 

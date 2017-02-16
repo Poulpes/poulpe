@@ -49,11 +49,11 @@ end
 # end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def color
+    ["blue", "orange", "red"].sample
+  end
+end
 
 set :css_dir, 'stylesheets'
 
