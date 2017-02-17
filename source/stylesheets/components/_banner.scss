@@ -1,0 +1,76 @@
+.banner {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  height: calc(100vh - 80px - 100px);
+  &-pattern {
+    flex: 0 0 25%;
+    background-size: cover;
+    padding: 10px 20px 50px 20px;
+    display: flex;
+    align-items: flex-end;
+    h1 {
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-style: italic;
+      line-height: 1;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  &-work {
+    flex: 0 0 74%;
+    background-size: cover;
+    position: relative;
+  }
+  &-link {
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // right: 0;
+    // left: 0;
+    color: black
+  }
+}
+
+.banner-project {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-work-hover {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  opacity: 0;
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: all 0.3s ease;
+  color: $poulpe-black;
+  &:hover {
+    opacity: 1;
+  }
+  h2 {
+    margin: 0;
+    font-size: 35px;
+  }
+  span {
+    width: 25px;
+    height: 3px;
+    background: $poulpe-black;
+    display: block;
+    margin: 15px auto;
+  }
+  p {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+

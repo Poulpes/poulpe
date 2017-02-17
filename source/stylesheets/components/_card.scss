@@ -1,0 +1,13 @@
+#work-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-container {
+  flex: 0 0 32%;
+  img {
+    width: 100%;
+  }
+  margin: 3px;
+}
