@@ -13,7 +13,15 @@
     </div>
   </div>
   <div class="banner-work" style="background-image: url(<%= image_path data.portfolio.values.first.img_thumbnail %> ); ">
-    <%= link_to "", "/work/#{data.portfolio.keys.first}.html", class: "banner-link" %>
+    <% link_to "/work/#{data.portfolio.keys.first}.html", class: "banner-link" do %>
+      <div class="banner-work-hover">
+        <div class="banner-work-hover-content text-center">
+          <h2><%= data.portfolio.values.first.name %></h2>
+          <span></span>
+          <p><%= data.portfolio.values.first.slug %></p>
+        </div>
+      </div>
+    <% end %>
   </div>
 </div>
 

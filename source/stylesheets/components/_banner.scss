@@ -26,11 +26,12 @@
     position: relative;
   }
   &-link {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // right: 0;
+    // left: 0;
+    color: black
   }
 }
 
@@ -39,3 +40,37 @@
   background-size: cover;
   background-position: center;
 }
+
+.banner-work-hover {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  opacity: 0;
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: all 0.3s ease;
+  color: $poulpe-black;
+  &:hover {
+    opacity: 1;
+  }
+  h2 {
+    margin: 0;
+    font-size: 35px;
+  }
+  span {
+    width: 25px;
+    height: 3px;
+    background: $poulpe-black;
+    display: block;
+    margin: 15px auto;
+  }
+  p {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
