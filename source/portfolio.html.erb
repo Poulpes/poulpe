@@ -1,0 +1,36 @@
+<% project = data.portfolio[project] %>
+
+  <div class="banner-project" style="background-image: url(<%= image_path project.img_banner %> ); ">
+  </div>
+<div class="portfolio-container">
+  <div class="project-description text-center">   
+    <h1><%= project.name %></h1>
+    <p>
+      <%= project.description %>
+      <% if project.link %>
+        <%= link_to "Voir le site", project.link, target: "blank" %>
+      <% end %>
+    </p>
+
+    <span class="project-category"><%= project.medium %></span>
+  </div>
+  <div class="project-images text-center">
+    <% if project.images %>
+      <% project.images.each do |image| %>
+        <%= image_tag image.url, class: "img-responsive project-image" %>
+      <% end %>
+    <% end %>
+    <% if project.videos %>
+      <% project.videos.each do |video| %>
+        <video src="/<%= video.url %>" autoplay="true" loop="true" class="img-responsive project-image"></video>
+        <%#= video_tag("video.url")%>
+      <% end %>
+    <% end %>
+
+
+  </div>
+  <% if project.credits %>
+    <p class="project-credits text-right"><%= project.credits %></p>
+  <% end %>
+
+</div>

@@ -4,6 +4,18 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
+// Container
+
+.poulpe-container {
+  width: 95%;
+  margin: auto;
+}
+
+.portfolio-container {
+  width: 70%;
+  margin: auto;
+}
+
 // Paddings
 .padded {
   padding-top: 5em;
@@ -22,4 +34,26 @@
 }
 .bg-facebook {
   background: #3b5998;
+}
+
+// links
+
+.link-red:hover {
+  color: $poulpe-red;
+}
+.link-blue:hover {
+  color: $poulpe-blue;
+}
+.link-orange:hover {
+  color: $poulpe-orange;
+}
+
+.link-red.active {
+  color: $poulpe-red;
+}
+.link-blue.active {
+  color: $poulpe-blue;
+}
+.link-orange.active {
+  color: $poulpe-orange;
 }
