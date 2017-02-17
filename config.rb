@@ -53,6 +53,10 @@ helpers do
   def color
     ["blue", "orange", "red"].sample
   end
+
+  def nav_active(path)
+    current_page.path == path ? "active" : ""
+  end
 end
 
 set :css_dir, 'stylesheets'

@@ -47,3 +47,13 @@
 .link-orange:hover {
   color: $poulpe-orange;
 }
+
+.link-red.active {
+  color: $poulpe-red;
+}
+.link-blue.active {
+  color: $poulpe-blue;
+}
+.link-orange.active {
+  color: $poulpe-orange;
+}
