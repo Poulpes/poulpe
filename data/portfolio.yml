@@ -1,0 +1,144 @@
+yoo:
+  name: YOÔ
+  slug: Application Web 
+  img_thumbnail: images/work/yoo/yoo-thumbnail.jpg
+  img_banner: images/work/yoo/yoo-banner.jpg
+  url: /work/yoo.html
+  category: fullstack
+  link: http://www.yoo.paris/
+  description: |
+      YOÔ est une nouvelle plateforme innovante mettant en relation des marques
+      et des influenceurs.
+      <br />
+      Techno : Ruby on Rails
+      <br />
+      <br /> 
+  medium: Développement web fullstack • UI-UX • Web Design
+  images:
+    - url: images/work/yoo/yoo-1.jpg
+    - url: images/work/yoo/yoo-thumbnail.jpg
+    - url: images/work/yoo/yoo-2.jpg
+    - url: images/work/yoo/yoo-3.jpg
+  credits: |
+    Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
+wemind:
+  name: Wemind
+  slug: Application Web
+  img_thumbnail: images/work/wemind/wemind-thumbnail.jpg
+  img_banner: images/work/wemind/wemind-banner.jpg
+  url: /work/wemind.html
+  category: fullstack
+  link: http://beta.wemind.io/
+  description: |
+      YOÔ est une nouvelle plateforme innovante mettant en relation des marques
+      et des influenceurs.
+      <br />
+      Techno : Ruby on Rails
+      <br />
+      <br /> 
+  medium: Développement web fullstack
+  images:
+    - url: images/work/wemind/wemind-thumbnail.jpg
+    - url: images/work/wemind/wemind-1.jpg
+    - url: images/work/wemind/wemind-2.jpg
+    - url: images/work/wemind/wemind-3.jpg
+  credits: |
+    Direction Artistique : <a href="http://antonylegrand.com/">Antony Legrand</a>
+watchdogs:
+  name: Watchdogs
+  slug: Jeux concours
+  img_thumbnail: images/work/watchdogs/watchdogs-thumbnail.jpg
+  img_banner: images/work/watchdogs/watchdogs-banner.jpg
+  url: /work/watchdogs.html
+  category: frontend
+  description: |
+      Jeux concours pour promouvoir les parfums Black XS et One Milion de Paco Rabanne.
+      Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
+      <br />
+      Techno : Ruby on Rails
+  medium: Développement Frontend
+  images:
+    - url: images/work/watchdogs/watchdogs-thumbnail.jpg
+    - url: images/work/watchdogs/watchdogs-1.jpg
+    - url: images/work/watchdogs/watchdogs-2.jpg
+  credits: |
+    En collaboration avec <span>Ant</span>
+pacorabanne:
+  name: Paco Rabanne
+  name: Jeux concours
+  img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
+  img_banner: images/work/pacorabanne/blackxs-banner.jpg
+  url: /work/pacorabanne.html
+  category: frontend
+  description: |
+      Jeux concours pour promouvoir les parfums Black XS et One Milion de Paco Rabanne.
+      Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
+      <br />
+      Techno : Ruby on Rails
+  medium: Développement Frontend
+  videos:
+    - url: images/work/pacorabanne/blackxs.mp4
+    - url: images/work/pacorabanne/onemilion.mp4
+  credits: |
+    En collaboration avec <span>Ant</span>
+mamagoto:
+  name: Mamagoto
+  slug: Site statique
+  img_thumbnail: images/work/mamagoto/mamagoto-thumbnail.jpg
+  img_banner: images/work/mamagoto/mamagoto-banner.jpg
+  url: /work/mamagoto.html
+  category: frontend
+  link: http://wwww.mamagoto.fr/
+  description: |
+      Identité visuelle, web design et développement web pour Mamagoto 
+      (qui veut dire "dînette" en japonais). Mamagoto est un restaurant aux influences
+      franco-japonaise.
+      <br />
+      Techno : Middleman
+      <br />
+      <br /> 
+  medium: Direction Artistique • Web Design • Développement Frontend
+  images:
+    - url: images/work/mamagoto/mamagoto-1.jpg
+    - url: images/work/mamagoto/mamagoto-2.jpg
+    - url: images/work/mamagoto/mamagoto-3.jpg
+kwaala:
+  name: Kwaala
+  slug: Application Web
+  img_thumbnail: images/work/kwaala/kwaala-thumbnail.jpg
+  img_banner: images/work/kwaala/kwaala-banner.jpg
+  category: frontend
+  url: /work/kwaala.html
+  link: http://kwaala.fr/
+  description: |
+      Kwaala est une application web basée sur l'économie collaborative. 
+      Elle permet à ses utilisateurs de louer du matériel de voyage entre particulier.
+      <br />
+      <br />
+  medium: Direction Artistique • Web Design • Développement Frontend 
+  images:
+    - url: images/work/kwaala/kwaala-1.jpg
+    - url: images/work/kwaala/kwaala-2.jpg
+    - url: images/work/kwaala/kwaala-thumbnail.jpg
+eticss:
+  name: eTICSS
+  slug: Site statique
+  img_thumbnail: images/work/eticss/eticss-thumbnail.jpg
+  img_banner: images/work/eticss/eticss-banner.jpg
+  category: fullstack
+  url: /work/eticss.html
+  link: http://www.eticss.fr/
+  description: |
+      Web development for eTICSS. <br />eTICSS project targets a better coordination 
+      between health and social actors working for the people living north 
+      of Saône and Loire department
+      <br />
+      Technos : Ruby on Rails
+      <br />
+      <br />
+  medium: Développement fullstack
+  images:
+    - url: images/work/eticss/eticss-thumbnail.jpg
+    - url: images/work/eticss/eticss-1.jpg
+  credits: |
+    En collaboration avec <a href="http://www.agencebastille.com/">Agence Bastille</a>
