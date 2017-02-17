@@ -32,7 +32,7 @@ activate :autoprefixer
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
 data.portfolio.keys.each do |project|
-  proxy "/work/#{project}.html", "/work/show.html", :locals => { project: project }
+  proxy "/work/#{project}.html", "/work/show.html", :locals => { project: project }, :ignore => true
 end
 
 ###
