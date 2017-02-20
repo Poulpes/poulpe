@@ -1,50 +1,8 @@
-<div class="banner">
-  <div class="banner-pattern" style='background-image: url(<%= image_path "motif-blue.png" %> );'>
-    <div class="banner-content">
-      <h1>
-        Agence
-        Digitale
-        Agile
-      </h1>
-      <p>
-        [Poulpe] n.m, espèce marine réputée pour sa capacité d'adaptation, son agilité, sa rapidité ... <br>
-        Notre mission ? Créer des <strong>expériences digitales innovantes et créatives.</strong>
-      </p>
-    </div>
-  </div>
-  <div class="banner-work" style="background-image: url(<%= image_path data.portfolio.values.first.img_thumbnail %> ); ">
-    <% link_to "/work/#{data.portfolio.keys.first}.html", class: "banner-link" do %>
-      <div class="banner-work-hover">
-        <div class="banner-work-hover-content text-center">
-          <h2><%= data.portfolio.values.first.name %></h2>
-          <span></span>
-          <p><%= data.portfolio.values.first.slug %></p>
-        </div>
-      </div>
-    <% end %>
-  </div>
-</div>
-
-<div class="discover-more text-center">
-  <div class="discover-more-content">
-    <p>Découvrez nos projets</p>
-    <div class="arrow-container">
-      <a href="#work-container">
-        <i class="fa fa-angle-down"></i>
-      </a>
-    </div>
-  </div>
-</div>
-
-<div class="poulpe-container">
-
-  <div id="work-container">
-    <% data.portfolio.each do |name, project| %>
-      <div class="project-container">
-        <% link_to "/work/#{name}.html" do %>
-          <%= image_tag project.img_thumbnail %>
-        <% end %>
-      </div>
-    <% end %>
+<div class="waiting-page text-center">
+  <div class="content">
+    <%= image_tag "logo-#{color}.png" %>
+    <h1>Agence de création digitale.</h1>
+    <p>Notre mission ? Créer la meilleure expérience digitale pour votre marque et votre cible.</p>
+    <p>- WORK IN PROGRESS -</p>
   </div>
 </div>

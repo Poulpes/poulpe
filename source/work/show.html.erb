@@ -5,6 +5,7 @@
 <div class="portfolio-container">
   <div class="project-description text-center">   
     <h1><%= project.name %></h1>
+    <h2>Le projet</h2>
     <p>
       <%= project.description %>
       <% if project.link %>
@@ -14,6 +15,16 @@
 
     <span class="project-category"><%= project.medium %></span>
   </div>
+  <div class="first-image">
+    <%= image_tag project.first-image, class: "img-responsive project-image" %>
+  </div>
+</div>
+
+<div class="banner-goal">
+  <h2>Défis</h2>
+</div>
+
+<div class="portfolio-container">
   <div class="project-images text-center">
     <% if project.images %>
       <% project.images.each do |image| %>
@@ -26,11 +37,19 @@
         <%#= video_tag("video.url")%>
       <% end %>
     <% end %>
-
-
   </div>
   <% if project.credits %>
     <p class="project-credits text-right"><%= project.credits %></p>
   <% end %>
 
 </div>
+
+<% if project.reco %>
+  <div class="<%= project.color_classes %> banner-reco text-center">
+    <div class="portfolio-container">
+      <%= partial "quote" %>
+      <p><%= project.reco %></p>
+      <span><%= project.referer %></span>
+    </div>
+  </div>
+<% end %>

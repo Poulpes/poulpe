@@ -11,3 +11,16 @@
 		margin-bottom: 0;
 	}
 }
+
+.waiting-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	img {
+		width: 200px
+	}
+	h1 {
+		font-style: italic;
+	}
+}

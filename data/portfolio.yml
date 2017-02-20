@@ -7,20 +7,35 @@ yoo:
   category: fullstack
   link: http://www.yoo.paris/
   description: |
-      YOÔ est une nouvelle plateforme innovante mettant en relation des marques
-      et des influenceurs.
-      <br />
-      Techno : Ruby on Rails
+      L’efficacité du marketing de l’influence n’est aujourd’hui plus 
+      à démontrer. Mais bien souvent seuls une poignée d’influenceurs 
+      digitaux, les plus côtés, sont sollicités. Spécialisée dans la mise 
+      en relation de marques (Parrot, Kenzo, Le Bon Marché…) 
+      et de consommateurs influents, <a href="http://www.woo.paris/">l’agence d’influence digitale Woô</a> 
+      souhaitait une plateforme innovante qui gagnerait en force de frappe 
+      en permettant à des micro-influenceurs de s’investir dans les campagnes. <br />
+      Nous avons donc créé l’application web Yoô. 
+      Les influenceurs rejoignent librement la plateforme et synchronisent 
+      leurs réseaux sociaux, les marques expriment leurs besoins et sont 
+      accompagnées par l’équipe Woô dans la conception, la mise en place et 
+      la mesure en temps réel de leurs campagnes. 
       <br />
       <br /> 
   medium: Développement web fullstack • UI-UX • Web Design
+  first_image: images/work/yoo/yoo-1.jpg
   images:
-    - url: images/work/yoo/yoo-1.jpg
     - url: images/work/yoo/yoo-thumbnail.jpg
     - url: images/work/yoo/yoo-2.jpg
     - url: images/work/yoo/yoo-3.jpg
   credits: |
     Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
+  color_classes: bg-yoo bg-dark
+  reco: | 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
+    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
+    ratione molestiae reprehenderit eaque aspernatur non.
+  referer: Agathe Nicolle
 wemind:
   name: Wemind
   slug: Application Web
@@ -44,9 +59,21 @@ wemind:
     - url: images/work/wemind/wemind-3.jpg
   credits: |
     Direction Artistique : <a href="http://antonylegrand.com/">Antony Legrand</a>
+  color_classes: bg-wemind bg-dark
+  reco: | 
+    Nous avons fait appel à Poulpe pour créer rapidement la première version 
+    de notre site. Les développements ont été effectués en un temps record 
+    et tous les bugs ont été corrigés dans les 24 heures. 
+    A la date de livraison, le site était opérationnel et sans aucun bug, 
+    je crois que c’est la première fois que je vois ça dans un projet 
+    informatique. Lorsque le site a été repris par notre équipe interne, 
+    le code était clair et optimisé pour la suite. 
+    J’ajoute également que la relation de travail était fluide et agréable. 
+    Merci et bravo pour votre efficacité et votre professionnalisme !
+  referer: Hind Elidrissi
 watchdogs:
   name: Watchdogs
-  slug: Jeux concours
+  slug: Jeu concours
   img_thumbnail: images/work/watchdogs/watchdogs-thumbnail.jpg
   img_banner: images/work/watchdogs/watchdogs-banner.jpg
   url: /work/watchdogs.html
@@ -63,9 +90,16 @@ watchdogs:
     - url: images/work/watchdogs/watchdogs-2.jpg
   credits: |
     En collaboration avec <span>Ant</span>
+  color_classes: bg-watchdogs bg-dark
+  reco: | 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
+    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
+    ratione molestiae reprehenderit eaque aspernatur non.
+  referer: Antoine Ayoub
 pacorabanne:
   name: Paco Rabanne
-  name: Jeux concours
+  slug: Jeux concours
   img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
   img_banner: images/work/pacorabanne/blackxs-banner.jpg
   url: /work/pacorabanne.html
@@ -81,6 +115,13 @@ pacorabanne:
     - url: images/work/pacorabanne/onemilion.mp4
   credits: |
     En collaboration avec <span>Ant</span>
+  color_classes: bg-paco bg-dark
+  reco: | 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
+    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
+    ratione molestiae reprehenderit eaque aspernatur non.
+  referer: Antoine Ayoub
 mamagoto:
   name: Mamagoto
   slug: Site statique
@@ -102,6 +143,13 @@ mamagoto:
     - url: images/work/mamagoto/mamagoto-1.jpg
     - url: images/work/mamagoto/mamagoto-2.jpg
     - url: images/work/mamagoto/mamagoto-3.jpg
+  color_classes: bg-mamagoto bg-dark
+  reco: | 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
+    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
+    ratione molestiae reprehenderit eaque aspernatur non.
+  referer: Guillaume Cazier
 kwaala:
   name: Kwaala
   slug: Application Web
@@ -120,6 +168,13 @@ kwaala:
     - url: images/work/kwaala/kwaala-1.jpg
     - url: images/work/kwaala/kwaala-2.jpg
     - url: images/work/kwaala/kwaala-thumbnail.jpg
+  color_classes: bg-kwaala bg-dark
+  reco: | 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
+    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
+    ratione molestiae reprehenderit eaque aspernatur non.
+  referer: Mathilde Lefrançois
 eticss:
   name: eTICSS
   slug: Site statique
@@ -142,3 +197,14 @@ eticss:
     - url: images/work/eticss/eticss-1.jpg
   credits: |
     En collaboration avec <a href="http://www.agencebastille.com/">Agence Bastille</a>
+  color_classes: bg-eticss bg-dark
+  reco: | 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
+    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
+    ratione molestiae reprehenderit eaque aspernatur non.
+  referer: Lucinda Terreyre
+
+
+
+

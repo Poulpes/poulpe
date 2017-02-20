@@ -1,0 +1,58 @@
+<div class="banner">
+  <div class="banner-pattern" style='background-image: url(<%= image_path "motif-blue.png" %> );'>
+    <div class="banner-content">
+      <h1>
+        Agence
+        Digitale
+        Agile
+      </h1>
+      <p>
+        [Poulpe] n.m, espèce marine réputée pour sa capacité d'adaptation, son agilité, sa rapidité ... <br>
+        Notre mission ? Créer des <strong>expériences digitales innovantes et créatives.</strong>
+      </p>
+    </div>
+  </div>
+  <div class="banner-work" style="background-image: url(<%= image_path data.portfolio.values.first.img_thumbnail %> ); ">
+    <% link_to "/work/#{data.portfolio.keys.first}.html", class: "banner-link" do %>
+      <div class="banner-work-hover">
+        <div class="banner-work-hover-content text-center">
+          <h2><%= data.portfolio.values.first.name %></h2>
+          <span></span>
+          <p><%= data.portfolio.values.first.slug %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="discover-more text-center">
+  <div class="discover-more-content">
+    <p>Découvrez nos projets</p>
+    <div class="arrow-container">
+      <a href="#work-container">
+        <i class="fa fa-angle-down"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="poulpe-container">
+
+  <div id="work-container">
+    <% portfolio = data.portfolio.reject{|k,v| k == data.portfolio.keys.first} %>
+    <% portfolio.each do |name, project| %>
+      <div class="project-container">
+        <% link_to "/work/#{name}.html" do %>
+          <%= image_tag project.img_thumbnail %>
+          <div class="project-container-hover">
+            <div class="banner-work-hover-content text-center">
+              <h2><%= project.name %></h2>
+              <span></span>
+              <p><%= project.slug %></p>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>

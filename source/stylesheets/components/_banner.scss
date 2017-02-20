@@ -24,6 +24,7 @@
     flex: 0 0 74%;
     background-size: cover;
     position: relative;
+    background-position: center;
   }
   &-link {
     // position: absolute;
@@ -46,7 +47,7 @@
   align-items:center;
   justify-content: center;
   opacity: 0;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.6);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -60,6 +61,7 @@
   h2 {
     margin: 0;
     font-size: 35px;
+    font-style: italic;
   }
   span {
     width: 25px;
@@ -74,3 +76,21 @@
   }
 }
 
+.banner-reco{
+  padding: 50px 0;
+  p {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  svg {
+    margin-bottom: 20px;
+  }
+  span {
+    font-family: $header-font;
+    font-style: italic;
+  }
+  .portfolio-container {
+    margin-bottom: 0;
+  }
+}
