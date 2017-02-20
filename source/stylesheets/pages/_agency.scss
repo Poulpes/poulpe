@@ -1,0 +1,59 @@
+.agency-content {
+  margin-top: 30px;
+}
+.agency-intro {
+  background: #282828;
+  color: white;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.agency-intro-content {
+  width: 65%;
+  margin: auto;
+  h1 {
+    font-style: italic;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}
+.poulpe-row {
+  display: flex;
+  justify-content: space-between;
+}
+.poulpe-column {
+  flex: 0 0 49%;
+}
+.founders {
+  flex: 0 0 49%;
+  img {
+    width:100%;
+  }
+}
+
+.review-container {
+  padding: 40px 20px;
+  color: white;
+  svg {
+    margin-bottom: 20px;
+  }
+  #quote-path {
+    fill: white;
+    opacity: 0.6;
+  }
+  span {
+    font-family: $header-font;
+    font-size: 18px;
+    font-style: italic;
+  }
+  a {
+    color: white;
+    font-weight: bolder;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    &:hover {
+      opacity:1;
+    }
+  }
+}

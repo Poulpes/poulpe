@@ -76,12 +76,12 @@
   }
 }
 
-.banner-reco{
+.banner-text{
   padding: 50px 0;
-  p {
+  p, h2 {
     width: 70%;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   svg {
     margin-bottom: 20px;
@@ -90,7 +90,15 @@
     font-family: $header-font;
     font-style: italic;
   }
-  .portfolio-container {
+}
+
+.banner-goal {
+  background-color: $poulpe-black;
+  color: white;
+  margin-bottom: 10px;
+  h2 {
+    font-style: italic;
+    font-size: 24px;
     margin-bottom: 0;
   }
 }

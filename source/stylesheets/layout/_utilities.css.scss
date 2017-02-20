@@ -6,83 +6,83 @@
 
 // Container
 
-.poulpe-container {
-  width: 95%;
-  margin: auto;
-}
+  .poulpe-container {
+    width: 95%;
+    margin: auto;
+  }
 
-.portfolio-container {
-  width: 70%;
-  margin: auto;
-}
+  .portfolio-container {
+    width: 70%;
+    margin: auto;
+  }
 
 // Paddings
-.padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
-}
+  .padded {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
 
 // Backgrounds
-.bg-text {
-  background: #4a4a4a;
-}
-.bg-email {
-  background: #aeaeae;
-}
-.bg-twitter {
-  background: #00a3e1;
-}
-.bg-facebook {
-  background: #3b5998;
-}
-
-.bg-yoo {
-  background-color: #F68E60;
-}
-.bg-wemind {
-  background-color: #654396;
-}
-.bg-watchdogs {
-  background-color: #0FBEFF;
-}
-.bg-paco {
-  background-color: $poulpe-black;
-}
-.bg-mamagoto {
-  background-color: #294C6F;
-}
-.bg-kwaala {
-  background-color: #F15942;
-}
-.bg-eticss {
-  background-color: #FCB600;
-}
-.bg-dark {
-  color: white;
-  #quote-path {
-    fill: white;
-    opacity: 0.6;
+  .bg-grey {
+    background-color: $gray-lighter;
   }
-}
+  .bg-yoo {
+    background-color: #F68E60;
+  }
+  .bg-wemind {
+    background-color: #654396;
+  }
+  .bg-watchdogs {
+    background-color: #0FBEFF;
+  }
+  .bg-paco {
+    background-color: $poulpe-black;
+  }
+  .bg-mamagoto {
+    background-color: #294C6F;
+  }
+  .bg-kwaala {
+    background-color: #F15942;
+  }
+  .bg-eticss {
+    background-color: #FCB600;
+  }
+  .bg-dark {
+    color: white;
+    #quote-path {
+      fill: white;
+      opacity: 0.6;
+    }
+  }
+
+  .bg-black {
+    background-color: $poulpe-black;
+  }
 
 // links
 
-.link-red:hover {
-  color: $poulpe-red;
-}
-.link-blue:hover {
-  color: $poulpe-blue;
-}
-.link-orange:hover {
-  color: $poulpe-orange;
-}
+  .link-red:hover {
+    color: $poulpe-red;
+  }
+  .link-blue:hover {
+    color: $poulpe-blue;
+  }
+  .link-orange:hover {
+    color: $poulpe-orange;
+  }
 
-.link-red.active {
-  color: $poulpe-red;
-}
-.link-blue.active {
-  color: $poulpe-blue;
-}
-.link-orange.active {
-  color: $poulpe-orange;
-}
+  .link-red.active {
+    color: $poulpe-red;
+  }
+  .link-blue.active {
+    color: $poulpe-blue;
+  }
+  .link-orange.active {
+    color: $poulpe-orange;
+  }
+
+// Text
+
+  .text-bold {
+    font-weight: bolder;
+  }

@@ -1,5 +1,6 @@
 yoo:
   name: YOÔ
+  client: <a href="http://www.woo.paris/" target="_blank">WOÔ</a>
   slug: Application Web 
   img_thumbnail: images/work/yoo/yoo-thumbnail.jpg
   img_banner: images/work/yoo/yoo-banner.jpg
@@ -11,18 +12,24 @@ yoo:
       à démontrer. Mais bien souvent seuls une poignée d’influenceurs 
       digitaux, les plus côtés, sont sollicités. Spécialisée dans la mise 
       en relation de marques (Parrot, Kenzo, Le Bon Marché…) 
-      et de consommateurs influents, <a href="http://www.woo.paris/">l’agence d’influence digitale Woô</a> 
+      et de consommateurs influents, <a href="http://www.woo.paris/">l’agence d’influence digitale WOÔ</a> 
       souhaitait une plateforme innovante qui gagnerait en force de frappe 
-      en permettant à des micro-influenceurs de s’investir dans les campagnes. <br />
+      en permettant à des micro-influenceurs de s’investir dans les campagnes. 
+      <br /><br />
       Nous avons donc créé l’application web Yoô. 
       Les influenceurs rejoignent librement la plateforme et synchronisent 
       leurs réseaux sociaux, les marques expriment leurs besoins et sont 
       accompagnées par l’équipe Woô dans la conception, la mise en place et 
       la mesure en temps réel de leurs campagnes. 
-      <br />
-      <br /> 
   medium: Développement web fullstack • UI-UX • Web Design
   first_image: images/work/yoo/yoo-1.jpg
+  goal: |
+    Création d’une architecture reposant sur 3 plateformes independantes 
+    ayant chacunes des buts différents : <br />
+    Une plateforme “influenceurs” attractive et gamifiée, 
+    une plateforme “marques” permettant une prise de brief simplifiée et 
+    un backoffice “agence” visant à optimiser certains processes métiers. <br />
+    Création d’un outil de statistiques pour la mesure des campagnes.
   images:
     - url: images/work/yoo/yoo-thumbnail.jpg
     - url: images/work/yoo/yoo-2.jpg
@@ -38,6 +45,7 @@ yoo:
   referer: Agathe Nicolle
 wemind:
   name: Wemind
+  client: <a href="http://www.wemind.io/">Wemind</a>
   slug: Application Web
   img_thumbnail: images/work/wemind/wemind-thumbnail.jpg
   img_banner: images/work/wemind/wemind-banner.jpg
@@ -45,15 +53,21 @@ wemind:
   category: fullstack
   link: http://beta.wemind.io/
   description: |
-      YOÔ est une nouvelle plateforme innovante mettant en relation des marques
-      et des influenceurs.
-      <br />
-      Techno : Ruby on Rails
-      <br />
-      <br /> 
+      S’étant donné pour mission de simplifier la vie des freelances 
+      (vraie mutuelle, comité d’entreprise, garantie logement), 
+      Wemind rassemble aujourd’hui plus de 10 000 travailleurs indépendants 
+      à travers la France. 
+      <br /><br />
+      Cette version bêta de l’application, centrée sur les services mutuelle 
+      et comité d’entreprise, permet d’obtenir très simplement une proposition 
+      de prix et le détail des garanties offertes selon l’offre choisie.
   medium: Développement web fullstack
+  first_image: images/work/wemind/wemind-thumbnail.jpg
+  goal: |
+    Faciliter l’onboarding et rendre l’inscription mutuelle plus sexy. <br/>
+    Conception d’un questionnaire sous forme de formulaire conversationel
+    pour conserver le côté "humain".        
   images:
-    - url: images/work/wemind/wemind-thumbnail.jpg
     - url: images/work/wemind/wemind-1.jpg
     - url: images/work/wemind/wemind-2.jpg
     - url: images/work/wemind/wemind-3.jpg
@@ -63,42 +77,48 @@ wemind:
   reco: | 
     Nous avons fait appel à Poulpe pour créer rapidement la première version 
     de notre site. Les développements ont été effectués en un temps record 
-    et tous les bugs ont été corrigés dans les 24 heures. 
+    et tous les bugs ont été corrigés dans les 24 heures.
     A la date de livraison, le site était opérationnel et sans aucun bug, 
     je crois que c’est la première fois que je vois ça dans un projet 
     informatique. Lorsque le site a été repris par notre équipe interne, 
-    le code était clair et optimisé pour la suite. 
-    J’ajoute également que la relation de travail était fluide et agréable. 
+    le code était clair et optimisé pour la suite.
+    J’ajoute également que la relation de travail était fluide et agréable. <br/>
     Merci et bravo pour votre efficacité et votre professionnalisme !
   referer: Hind Elidrissi
 watchdogs:
   name: Watchdogs
+  client: Agence Ant.
   slug: Jeu concours
+  link: http://watchdogsfest.ubi.com/
   img_thumbnail: images/work/watchdogs/watchdogs-thumbnail.jpg
   img_banner: images/work/watchdogs/watchdogs-banner.jpg
   url: /work/watchdogs.html
   category: frontend
   description: |
-      Jeux concours pour promouvoir les parfums Black XS et One Milion de Paco Rabanne.
-      Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
-      <br />
-      Techno : Ruby on Rails
+    Pour le lancement du jeu vidéo Watchdogs, Ubisoft organise un jeu concours : 
+    les utilisateurs doivent créer une vidéo sur leurs vision des 'hacker'.
+    Le concours s'organise en 4 phases, la phase d'annonce du concours, la phase
+    de participation, l'annonce de la sélection officielle et l'annonce des gagnants. 
   medium: Développement Frontend
+  first_image: images/work/watchdogs/watchdogs-thumbnail.jpg
   images:
-    - url: images/work/watchdogs/watchdogs-thumbnail.jpg
     - url: images/work/watchdogs/watchdogs-1.jpg
     - url: images/work/watchdogs/watchdogs-2.jpg
-  credits: |
-    En collaboration avec <span>Ant</span>
   color_classes: bg-watchdogs bg-dark
   reco: | 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
-    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
-    ratione molestiae reprehenderit eaque aspernatur non.
+    Nous avons eu la chance de travailler avec Poulpe dans le cadre de 
+    projets importants pour notre agence. Nous avons apprécié le respect 
+    des deadlines, la qualité des livrables, l’engagement de l’équipe pour 
+    la réussite des projets. Leur force de proposition et leur 
+    professionalisme à toute épreuve en font un partenaire privilégié et 
+    de confiance avec qui c’est un plaisir de travailler. 
+    La complémentarité de leurs équipes apporte de la fléxibilité et un 
+    regard aussi bien technique que créatif, ce qui est indispensable 
+    pour proposer des projets digitaux différenciants.
   referer: Antoine Ayoub
 pacorabanne:
   name: Paco Rabanne
+  client: Agence Ant.
   slug: Jeux concours
   img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
   img_banner: images/work/pacorabanne/blackxs-banner.jpg
@@ -107,23 +127,25 @@ pacorabanne:
   description: |
       Jeux concours pour promouvoir les parfums Black XS et One Milion de Paco Rabanne.
       Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
-      <br />
-      Techno : Ruby on Rails
   medium: Développement Frontend
   videos:
     - url: images/work/pacorabanne/blackxs.mp4
     - url: images/work/pacorabanne/onemilion.mp4
-  credits: |
-    En collaboration avec <span>Ant</span>
   color_classes: bg-paco bg-dark
   reco: | 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
-    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
-    ratione molestiae reprehenderit eaque aspernatur non.
+    Nous avons eu la chance de travailler avec Poulpe dans le cadre de 
+    projets importants pour notre agence. Nous avons apprécié le respect 
+    des deadlines, la qualité des livrables, l’engagement de l’équipe pour 
+    la réussite des projets. Leur force de proposition et leur 
+    professionalisme à toute épreuve en font un partenaire privilégié et 
+    de confiance avec qui c’est un plaisir de travailler. 
+    La complémentarité de leurs équipes apporte de la fléxibilité et un 
+    regard aussi bien technique que créatif, ce qui est indispensable 
+    pour proposer des projets digitaux différenciants.
   referer: Antoine Ayoub
 mamagoto:
   name: Mamagoto
+  client: <a href="http://wwww.mamagoto.fr/">Mamagoto</a>
   slug: Site statique
   img_thumbnail: images/work/mamagoto/mamagoto-thumbnail.jpg
   img_banner: images/work/mamagoto/mamagoto-banner.jpg
@@ -133,14 +155,13 @@ mamagoto:
   description: |
       Identité visuelle, web design et développement web pour Mamagoto 
       (qui veut dire "dînette" en japonais). Mamagoto est un restaurant aux influences
-      franco-japonaise.
-      <br />
-      Techno : Middleman
-      <br />
-      <br /> 
+      franco-japonaises.
   medium: Direction Artistique • Web Design • Développement Frontend
+  first_image: images/work/mamagoto/mamagoto-1.jpg
+  goal: |
+    Accompagner un jeune restaurant dans l’affirmation de son identité 
+    et lui permettre de rencontrer sa clientèle.
   images:
-    - url: images/work/mamagoto/mamagoto-1.jpg
     - url: images/work/mamagoto/mamagoto-2.jpg
     - url: images/work/mamagoto/mamagoto-3.jpg
   color_classes: bg-mamagoto bg-dark
@@ -152,6 +173,7 @@ mamagoto:
   referer: Guillaume Cazier
 kwaala:
   name: Kwaala
+  client: <a href="http://wwww.mamagoto.fr/">Kwaala</a>
   slug: Application Web
   img_thumbnail: images/work/kwaala/kwaala-thumbnail.jpg
   img_banner: images/work/kwaala/kwaala-banner.jpg
@@ -159,13 +181,18 @@ kwaala:
   url: /work/kwaala.html
   link: http://kwaala.fr/
   description: |
-      Kwaala est une application web basée sur l'économie collaborative. 
-      Elle permet à ses utilisateurs de louer du matériel de voyage entre particulier.
-      <br />
-      <br />
-  medium: Direction Artistique • Web Design • Développement Frontend 
+      Kwaala, la startup qui permet de louer du matériel de voyage 
+      entre particuliers, offrait déjà un service en ligne apprécié 
+      de ses clients. Elle voulait encore améliorer l’expérience 
+      utilisateur et gagner en cohérence visuelle. <br/>
+      Nous avons donc opéré la refonte du site et de son identité graphique.
+  medium: Direction Artistique • Web Design • UI-UX • Développement Frontend
+  first_image: images/work/kwaala/kwaala-1.jpg
+  goal: |
+    Innover et moderniser l’image de Kwaala tout en capitalisant sur 
+    l’existant. <br/>
+    Revoir entièrement l’UX de la partie réservation en ligne.
   images:
-    - url: images/work/kwaala/kwaala-1.jpg
     - url: images/work/kwaala/kwaala-2.jpg
     - url: images/work/kwaala/kwaala-thumbnail.jpg
   color_classes: bg-kwaala bg-dark
@@ -178,25 +205,22 @@ kwaala:
 eticss:
   name: eTICSS
   slug: Site statique
+  client: <a href="http://www.agencebastille.com/">Agence Bastille</a>
   img_thumbnail: images/work/eticss/eticss-thumbnail.jpg
   img_banner: images/work/eticss/eticss-banner.jpg
   category: fullstack
   url: /work/eticss.html
   link: http://www.eticss.fr/
   description: |
-      Web development for eTICSS. <br />eTICSS project targets a better coordination 
-      between health and social actors working for the people living north 
-      of Saône and Loire department
-      <br />
-      Technos : Ruby on Rails
-      <br />
-      <br />
+      Le projet eTICSS (Territoire Innovant Coordonné Santé Social), 
+      co-piloté par l’Agence Régionale de Santé de Bourgogne-Franche-Comté 
+      et le GCS e-Santé Bourgogne vise à améliorer les parcours de santé 
+      grâce aux services numériques. Ce site-support permet de faciliter 
+      le partage de l’information entre les acteurs santé-social. 
   medium: Développement fullstack
+  first_image: images/work/eticss/eticss-thumbnail.jpg
   images:
-    - url: images/work/eticss/eticss-thumbnail.jpg
     - url: images/work/eticss/eticss-1.jpg
-  credits: |
-    En collaboration avec <a href="http://www.agencebastille.com/">Agence Bastille</a>
   color_classes: bg-eticss bg-dark
   reco: | 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 

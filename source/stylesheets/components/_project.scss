@@ -3,16 +3,17 @@
     font-style: italic;
     text-transform: uppercase;
   }
-  p {
-    margin-bottom: 30px;
+  h2 {
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 0;
   }
   a {
-    color: $poulpe-black;
+    color: $poulpe-orange;
     font-weight: bolder;
-    opacity: 0.5;
     transition: all 0.3s ease;
     &:hover {
-      opacity: 1;
+      opacity: 0.5;
     }
   }
 }
@@ -20,30 +21,39 @@
   font-family: $header-font;
   font-style: italic;
 }
-.project-credits {
-  margin: 0;
-  font-size: 12px;
-  a {
-    color: $poulpe-black;
-    opacity: 0.5;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    &:hover {
-      opacity: 1;
-    }
-  }
-  span {
-    color: $poulpe-black;
-    opacity: 0.5;
-  }
-}
-.project-images {
-  margin-top: 30px;
-}
+
+// .project-images {
+//   margin-top: 10px;
+// }
 .project-image {
   margin: auto;
   margin-bottom: 10px;
 }
-.portfolio-container {
-  margin-bottom: 30px;
+
+.project-infos {
+  font-family: amiri;
+  font-style: italic;
+  display: flex;
+  padding: 15px 0;
+  a {
+    color: $poulpe-orange;
+    transition: all 0.3s ease;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.project-info {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-right: 1px solid $gray-light;
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    border-right: none;
+  }
+  p {
+    margin-bottom: 0;
+  }
 }

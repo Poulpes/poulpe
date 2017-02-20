@@ -4,3 +4,49 @@
   <div class="banner-work" style="background-image: url(<%= image_path "workplace.jpg" %> ); ">
   </div>
 </div>
+
+<div class="portfolio-container">
+  <div class="agency-content">
+    <div class="agency-intro text-center">
+      <div class="agency-intro-content">
+        <h1>Nous sommes</h1>
+        <p>
+          <span class="text-bold">Une agence de création digitale. </span><br>
+          Inspirées des start-up et des nouveaux écosystèmes, nos processes nous permettent d’aller plus vite et d’être plus flexibles. 
+          Nous nous appuyons sur un réseaux pluri-disciplinaire pour répondre au mieux à vos demandes. <br>
+          Notre mission ? Vous accompagner pour donner vie à des projets innovants et créatifs et ainsi créer la meilleure expérience digitale pour votre marque et votre cible.
+        </p>
+      </div>
+    </div>
+    <div class="poulpe-row">
+      <div class="poulpe-column">
+        <div class="review-container bg-wemind text-center">
+          <%= partial "work/quote" %>
+          <p>A la date de livraison, le site était opérationnel et sans aucun bug, 
+          je crois que c’est la première fois que je vois ça dans un projet 
+          informatique.</p>
+          <span>Hind Elidrissi - <a href="/work/wemind.html">Wemind</a></span>
+        </div>
+        <div class="bg-grey">
+          <h2>Nous faisons</h2>
+          <ul>
+            <li>
+              <span class="text-bold">Conception fonctionnelle et conseil UX</span> <br>
+              web-design  : conception directement guidée par notre savoir-faire technique, en prise directe avec les usages, les contraintes techniques 
+            </li>
+            <li>
+              <span class="text-bold">Développement et conseil technique</span> <br>
+              UI / bonnes pratiques de développement web : utilisabilité, ergonomie et conception user-centric
+            </li>
+            <li>
+              <span class="text-bold">Direction artistique</span>
+            </li>
+          </ul>         
+        </div>
+      </div>
+      <div class="founders">
+        <%= image_tag 'founders.jpg' %>
+      </div>
+    </div>
+  </div>
+</div>

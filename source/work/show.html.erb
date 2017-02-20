@@ -3,28 +3,46 @@
 <div class="banner-project" style="background-image: url(<%= image_path project.img_banner %> ); ">
 </div>
 <div class="portfolio-container">
-  <div class="project-description text-center">   
-    <h1><%= project.name %></h1>
+  <div class="project-description">   
+    <h1 class=" text-center"><%= project.name %></h1>
     <h2>Le projet</h2>
     <p>
       <%= project.description %>
-      <% if project.link %>
-        <%= link_to "Voir le site", project.link, target: "blank" %>
-      <% end %>
     </p>
-
-    <span class="project-category"><%= project.medium %></span>
   </div>
-  <div class="first-image">
-    <%#= image_tag project.first-image, class: "img-responsive project-image" %>
+  <div class="project-infos">
+    <div class="project-info">
+      <p>Client : <%= project.client %></p>
+    </div>
+    <% if project.link %>
+      <div class="project-info">
+        <%= link_to "Voir le site", project.link, target: "blank" %>
+      </div>
+    <% end %>
+    <div class="project-info">
+      <p>Réalisation : <%= project.medium %></p>
+    </div>
+    <% if project.credits %>
+      <div class="project-info">
+        <p class="project-credits"><%= project.credits %></p>
+      </div>
+    <% end %>
   </div>
-</div>
 
-<div class="banner-goal">
-  <h2>Défis</h2>
-</div>
+  <% if project.first_image %>
+    <div class="first-image">
+      <%= image_tag project.first_image, class: "img-responsive project-image" %>
+    </div>
+  <% end %>
+  
+  <% if project.goal %>
+    <div class="banner-text banner-goal">
+      <h2>Défis</h2>
+      <p><%= project.goal %></p>
+    </div>
+  <% end %>
 
-<div class="portfolio-container">
+
   <div class="project-images text-center">
     <% if project.images %>
       <% project.images.each do |image| %>
@@ -38,18 +56,12 @@
       <% end %>
     <% end %>
   </div>
-  <% if project.credits %>
-    <p class="project-credits text-right"><%= project.credits %></p>
-  <% end %>
-
-</div>
-
-<% if project.reco %>
-  <div class="<%= project.color_classes %> banner-reco text-center">
-    <div class="portfolio-container">
+  <% if project.reco %>
+    <div class="<%= project.color_classes %> banner-text text-center">
       <%= partial "quote" %>
       <p><%= project.reco %></p>
+      <br>
       <span><%= project.referer %></span>
     </div>
-  </div>
-<% end %>
+  <% end %>
+</div>
