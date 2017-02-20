@@ -1,5 +1,6 @@
 <% project = data.portfolio[project] %>
 
+<%= partial 'navbar' %>
 <div class="banner-project" style="background-image: url(<%= image_path project.img_banner %> ); ">
 </div>
 <div class="portfolio-container">
@@ -65,3 +66,5 @@
     </div>
   <% end %>
 </div>
+
+<%= partial 'footer' %>
