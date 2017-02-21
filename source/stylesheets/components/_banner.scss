@@ -27,6 +27,7 @@
     @media (max-width: $screen-md) {
       height: 40vh;
       padding: 40px;
+      flex: 1;
     }
     @media (max-width: $screen-xs) {
       padding: 20px;
@@ -49,6 +50,7 @@
     background-position: center;
     @media (max-width: $screen-md) {
       height: 40vh;
+      flex: 1;
     }
   }
   &-link {
@@ -116,6 +118,7 @@
   }
   span {
     font-family: $header-font;
+    font-weight: bolder;
     font-style: italic;
   }
   @media (max-width: $screen-xs) {

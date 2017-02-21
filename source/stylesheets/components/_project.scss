@@ -31,7 +31,8 @@
 }
 
 .project-infos {
-  font-family: amiri;
+  font-family: $header-font;
+  font-weight: bolder;
   font-style: italic;
   display: flex;
   padding: 15px 0;
