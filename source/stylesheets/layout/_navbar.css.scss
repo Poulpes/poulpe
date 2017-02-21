@@ -7,6 +7,12 @@
   padding: 0px 50px;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: $screen-md) {
+    padding: 0px 40px;
+  }
+  @media (max-width: $screen-xs) {
+    padding: 0px 20px;
+  }
 }
 
 /* Optional class to fix the navbar on top */
@@ -45,6 +51,53 @@
 .navbar-wagon-link:hover {
   text-decoration: none;
 }
+
+// responsive
+
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  margin: 3px 0;
+}
+
+.dot-red {
+  background-color: $poulpe-red;
+}
+.dot-orange {
+  background-color: $poulpe-orange;
+}
+.dot-blue {
+  background-color: $poulpe-blue;
+}
+
+.overlay {
+  display:none;
+  position:fixed;
+  top:79px;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background:white;
+  overflow:auto;
+  z-index:99;
+  li {
+    padding: 10px 0;
+  }
+}
+.wrap ul.wrap-nav {
+  padding:20px;
+  list-style: none;
+  @media (min-width: $screen-xs) and (max-width: $screen-md) {
+    padding: 40px;
+  }
+}
+
+
+
+
+
 
 
 
