@@ -37,12 +37,12 @@ yoo:
   credits: |
     Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
   color_classes: bg-yoo bg-dark
-  reco: | 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
-    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
-    ratione molestiae reprehenderit eaque aspernatur non.
-  referer: Agathe Nicolle
+  # reco: | 
+  #   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  #   Minima nesciunt optio consequuntur facilis, amet quibusdam, 
+  #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
+  #   ratione molestiae reprehenderit eaque aspernatur non.
+  # referer: Agathe Nicolle
 wemind:
   name: Wemind
   client: <a href="http://www.wemind.io/">Wemind</a>
@@ -112,7 +112,7 @@ watchdogs:
     la réussite des projets. Leur force de proposition et leur 
     professionalisme à toute épreuve en font un partenaire privilégié et 
     de confiance avec qui c’est un plaisir de travailler. 
-    La complémentarité de leurs équipes apporte de la fléxibilité et un 
+    La complémentarité de leurs équipes apporte de la flexibilité et un 
     regard aussi bien technique que créatif, ce qui est indispensable 
     pour proposer des projets digitaux différenciants.
   referer: Antoine Ayoub
@@ -139,7 +139,7 @@ pacorabanne:
     la réussite des projets. Leur force de proposition et leur 
     professionalisme à toute épreuve en font un partenaire privilégié et 
     de confiance avec qui c’est un plaisir de travailler. 
-    La complémentarité de leurs équipes apporte de la fléxibilité et un 
+    La complémentarité de leurs équipes apporte de la flexibilité et un 
     regard aussi bien technique que créatif, ce qui est indispensable 
     pour proposer des projets digitaux différenciants.
   referer: Antoine Ayoub
@@ -165,12 +165,12 @@ mamagoto:
     - url: images/work/mamagoto/mamagoto-2.jpg
     - url: images/work/mamagoto/mamagoto-3.jpg
   color_classes: bg-mamagoto bg-dark
-  reco: | 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
-    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
-    ratione molestiae reprehenderit eaque aspernatur non.
-  referer: Guillaume Cazier
+  # reco: | 
+  #   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  #   Minima nesciunt optio consequuntur facilis, amet quibusdam, 
+  #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
+  #   ratione molestiae reprehenderit eaque aspernatur non.
+  # referer: Guillaume Cazier
 kwaala:
   name: Kwaala
   client: <a href="http://wwww.mamagoto.fr/">Kwaala</a>
@@ -196,12 +196,12 @@ kwaala:
     - url: images/work/kwaala/kwaala-2.jpg
     - url: images/work/kwaala/kwaala-thumbnail.jpg
   color_classes: bg-kwaala bg-dark
-  reco: | 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
-    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
-    ratione molestiae reprehenderit eaque aspernatur non.
-  referer: Mathilde Lefrançois
+  # reco: | 
+  #   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  #   Minima nesciunt optio consequuntur facilis, amet quibusdam, 
+  #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
+  #   ratione molestiae reprehenderit eaque aspernatur non.
+  # referer: Mathilde Lefrançois
 eticss:
   name: eTICSS
   slug: Site statique
@@ -222,12 +222,12 @@ eticss:
   images:
     - url: images/work/eticss/eticss-1.jpg
   color_classes: bg-eticss bg-dark
-  reco: | 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-    Minima nesciunt optio consequuntur facilis, amet quibusdam, 
-    labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
-    ratione molestiae reprehenderit eaque aspernatur non.
-  referer: Lucinda Terreyre
+  # reco: | 
+  #   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  #   Minima nesciunt optio consequuntur facilis, amet quibusdam, 
+  #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
+  #   ratione molestiae reprehenderit eaque aspernatur non.
+  # referer: Lucinda Terreyre
 
 
 

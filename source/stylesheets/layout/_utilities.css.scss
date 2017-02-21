@@ -19,6 +19,14 @@
     }
   }
 
+  .agency-container {
+    width: 80%;
+    margin: auto;
+    @media (max-width: $screen-xs) {
+      width: 90%;
+    }
+  }
+
 // Paddings
   .padded {
     padding-top: 5em;

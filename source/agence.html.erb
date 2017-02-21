@@ -1,12 +1,8 @@
 <%= partial 'navbar' %>
-<div class="banner">
-  <div class="banner-pattern" style='background-image: url(<%= image_path "full-motif-#{color}.jpg" %> );'>
-  </div>
-  <div class="banner-work" style="background-image: url(<%= image_path "workplace.jpg" %> ); ">
-  </div>
+<div class="banner-project" style="background-image: url(<%= image_path "full-motif-#{color}.jpg" %> ); ">
 </div>
 
-<div class="portfolio-container">
+<div class="agency-container">
   <div class="agency-content">
     <div class="agency-intro text-center">
       <div class="agency-intro-content">
@@ -19,36 +15,62 @@
         </p>
       </div>
     </div>
-    <div class="poulpe-row">
-      <div class="poulpe-column">
-        <div class="review-container bg-wemind text-center">
-          <%= partial "work/quote" %>
-          <p>A la date de livraison, le site était opérationnel et sans aucun bug, 
-          je crois que c’est la première fois que je vois ça dans un projet 
-          informatique.</p>
-          <span>Hind Elidrissi - <a href="/work/wemind.html">Wemind</a></span>
+    
+    <div class="masonry-grid">
+      <div class="masonry-column">
+        <div class="masonry-picture bg-wemind masonry-text-onethird">
+          <div class="review-container text-center">
+            <%= partial "work/quote" %>
+            <p>A la date de livraison, le site était opérationnel et sans aucun bug, 
+            je crois que c’est la première fois que je vois ça dans un projet 
+            informatique.</p>
+            <span>Hind Elidrissi - <a href="/work/wemind.html">Wemind</a></span>
+          </div>
         </div>
-        <div class="bg-grey">
-          <h2>Nous faisons</h2>
-          <ul>
-            <li>
+        <div class="bg-grey masonry-text-onethird" id="masonry-services">
+          <div class="services">
+            <h2>Nous faisons</h2>
+            <p>
               <span class="text-bold">Conception fonctionnelle et conseil UX</span> <br>
-              web-design  : conception directement guidée par notre savoir-faire technique, en prise directe avec les usages, les contraintes techniques 
-            </li>
-            <li>
+              - Wireframe <br>
+              - Design produit <br>
+              - UX/UI <br>
+              - Conception user-centric
+            </p>
+            <p>
               <span class="text-bold">Développement et conseil technique</span> <br>
-              UI / bonnes pratiques de développement web : utilisabilité, ergonomie et conception user-centric
-            </li>
-            <li>
-              <span class="text-bold">Direction artistique</span>
-            </li>
-          </ul>         
+              - Sites statiques<br>
+              - Application web<br>
+              - Opération marketing digitale
+            </p>
+            <p>
+              <span class="text-bold">Création</span><br>
+              - Web Design<br>
+              - Direction Artistique
+            </p>
+          </div>
+        </div>
+        <div class="bg-watchdogs masonry-text-onethird">
+          <div class="review-container text-center">
+            <%= partial "work/quote" %>
+            <p>Nous avons apprécié le respect des deadlines, la qualité des livrables, l’engagement de l’équipe pour la réussite des projets. Leur force de proposition et leur professionalisme à toute épreuve en font un partenaire privilégié et de confiance avec qui c’est un plaisir de travailler.</p>
+            <span>Antoine Ayoub - Ant.</span>
+          </div>
         </div>
       </div>
-      <div class="founders">
-        <%= image_tag 'founders.jpg' %>
+      <div class="masonry-column">
+        <div class="masonry-picture masonry-picture-twothird" style= "background-image: url(<%= image_path 'mozaic.jpg' %>)">
+        </div>
+        <div class="bg-grey masonry-text-onethird">
+          <div class="social-media text-center">
+            <h2>Nous suivre</h2>
+            <a href="https://www.facebook.com/agencepoulpe"><i class="fa fa-facebook-square"></i></a>
+            <a href="http://instagram.com/agencepoulpe"><i class="fa fa-instagram"></i></a>           
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
 </div>
 
