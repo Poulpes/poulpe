@@ -74,4 +74,14 @@
       opacity:1;
     }
   }
+  &-black {
+    color: $poulpe-black;
+    #quote-path {
+      fill: $poulpe-black;
+      opacity: 0.3;
+    }
+    a {
+      color: $poulpe-black;
+    }
+  }
 }

@@ -9,9 +9,9 @@ yoo:
   link: http://www.yoo.paris/
   description: |
       L’efficacité du marketing de l’influence n’est aujourd’hui plus 
-      à démontrer. Mais bien souvent seuls une poignée d’influenceurs 
-      digitaux, les plus côtés, sont sollicités. Spécialisée dans la mise 
-      en relation de marques (Parrot, Kenzo, Le Bon Marché…) 
+      à démontrer. Mais bien souvent seule une poignée d’influenceurs 
+      digitaux, les plus côtés, est sollicitée. Spécialisée dans la mise 
+      en relation de marques (Parrot, Kenzo, Le Bon Marché, …) 
       et de consommateurs influents, <a href="http://www.woo.paris/">l’agence d’influence digitale WOÔ</a> 
       souhaitait une plateforme innovante qui gagnerait en force de frappe 
       en permettant à des micro-influenceurs de s’investir dans les campagnes. 
@@ -20,15 +20,15 @@ yoo:
       Les influenceurs rejoignent librement la plateforme et synchronisent 
       leurs réseaux sociaux, les marques expriment leurs besoins et sont 
       accompagnées par l’équipe Woô dans la conception, la mise en place et 
-      la mesure en temps réel de leurs campagnes. 
+      la mesure en temps réel de l'impact de leurs campagnes. 
   medium: Développement web fullstack • UI-UX • Web Design
   first_image: images/work/yoo/yoo-1.jpg
   goal: |
-    Création d’une architecture reposant sur 3 plateformes independantes 
+    Création d’une architecture reposant sur 3 plateformes indépendantes 
     ayant chacunes des buts différents : <br />
     Une plateforme “influenceurs” attractive et gamifiée, 
     une plateforme “marques” permettant une prise de brief simplifiée et 
-    un backoffice “agence” visant à optimiser certains processes métiers. <br />
+    un back-office “agence” visant à optimiser certains process métiers. <br />
     Création d’un outil de statistiques pour la mesure des campagnes.
   images:
     - url: images/work/yoo/yoo-thumbnail.jpg
@@ -53,20 +53,20 @@ wemind:
   category: fullstack
   link: http://beta.wemind.io/
   description: |
-      S’étant donné pour mission de simplifier la vie des freelances 
+      S’étant donnée pour mission de simplifier la vie des freelances 
       (vraie mutuelle, comité d’entreprise, garantie logement), 
       Wemind rassemble aujourd’hui plus de 10 000 travailleurs indépendants 
       à travers la France. 
       <br /><br />
-      Cette version bêta de l’application, centrée sur les services mutuelle 
-      et comité d’entreprise, permet d’obtenir très simplement une proposition 
+      Cette version bêta de l’application, centrée sur les services "mutuelle" 
+      et "comité d’entreprise", permet d’obtenir très simplement une proposition 
       de prix et le détail des garanties offertes selon l’offre choisie.
   medium: Développement web fullstack
   first_image: images/work/wemind/wemind-thumbnail.jpg
   goal: |
-    Faciliter l’onboarding et rendre l’inscription mutuelle plus sexy. <br/>
-    Conception d’un questionnaire sous forme de formulaire conversationel
-    pour conserver le côté "humain".        
+    Faciliter l’onboarding et rendre l’inscription "mutuelle" plus sexy. <br/>
+    Conception d’un questionnaire sous forme de formulaire conversationnel
+    avec l'objectif de conserver le côté "humain".        
   images:
     - url: images/work/wemind/wemind-1.jpg
     - url: images/work/wemind/wemind-2.jpg
@@ -74,7 +74,7 @@ wemind:
   credits: |
     Direction Artistique : <a href="http://antonylegrand.com/">Antony Legrand</a>
   color_classes: bg-wemind bg-dark
-  reco: | 
+  reco: |
     Nous avons fait appel à Poulpe pour créer rapidement la première version 
     de notre site. Les développements ont été effectués en un temps record 
     et tous les bugs ont été corrigés dans les 24 heures.
@@ -84,7 +84,7 @@ wemind:
     le code était clair et optimisé pour la suite.
     J’ajoute également que la relation de travail était fluide et agréable. <br/>
     Merci et bravo pour votre efficacité et votre professionnalisme !
-  referer: Hind Elidrissi
+  referer: Hind Elidrissi - Présidente
 watchdogs:
   name: Watchdogs
   client: Agence Ant.
@@ -96,8 +96,8 @@ watchdogs:
   category: frontend
   description: |
     Pour le lancement du jeu vidéo Watchdogs, Ubisoft organise un jeu concours : 
-    les utilisateurs doivent créer une vidéo sur leurs vision des 'hacker'.
-    Le concours s'organise en 4 phases, la phase d'annonce du concours, la phase
+    les utilisateurs doivent créer une vidéo sur leurs vision des 'hackers'.
+    Le concours s'organise en 4 phases : la phase d'annonce du concours, la phase
     de participation, l'annonce de la sélection officielle et l'annonce des gagnants. 
   medium: Développement Frontend
   first_image: images/work/watchdogs/watchdogs-thumbnail.jpg
@@ -125,7 +125,7 @@ pacorabanne:
   url: /work/pacorabanne.html
   category: frontend
   description: |
-      Jeux concours pour promouvoir les parfums Black XS et One Milion de Paco Rabanne.
+      Jeux concours pour promouvoir les parfums Black XS et One Million de Paco Rabanne.
       Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
   medium: Développement Frontend
   videos:
@@ -142,7 +142,7 @@ pacorabanne:
     La complémentarité de leurs équipes apporte de la flexibilité et un 
     regard aussi bien technique que créatif, ce qui est indispensable 
     pour proposer des projets digitaux différenciants.
-  referer: Antoine Ayoub
+  referer: Antoine Ayoub - Président
 mamagoto:
   name: Mamagoto
   client: <a href="http://wwww.mamagoto.fr/">Mamagoto</a>
@@ -153,8 +153,7 @@ mamagoto:
   category: frontend
   link: http://wwww.mamagoto.fr/
   description: |
-      Identité visuelle, web design et développement web pour Mamagoto 
-      (qui veut dire "dînette" en japonais). Mamagoto est un restaurant aux influences
+      Mamagoto (qui veut dire "dînette" en japonais) est un restaurant aux influences
       franco-japonaises.
   medium: Direction Artistique • Web Design • Développement Frontend
   first_image: images/work/mamagoto/mamagoto-1.jpg
