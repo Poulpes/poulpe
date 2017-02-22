@@ -55,7 +55,7 @@ wemind:
   description: |
       S’étant donnée pour mission de simplifier la vie des freelances 
       (vraie mutuelle, comité d’entreprise, garantie logement), 
-      Wemind rassemble aujourd’hui plus de 10 000 travailleurs indépendants 
+      Wemind rassemble aujourd’hui plus de 10&nbsp;000 travailleurs indépendants 
       à travers la France. 
       <br /><br />
       Cette version bêta de l’application, centrée sur les services "mutuelle" 
@@ -182,8 +182,8 @@ kwaala:
   description: |
       Kwaala, la startup qui permet de louer du matériel de voyage 
       entre particuliers, offrait déjà un service en ligne apprécié 
-      de ses clients. Elle voulait encore améliorer l’expérience 
-      utilisateur et gagner en cohérence visuelle. <br/>
+      de ses clients. Le client souhaitait encore améliorer l’expérience 
+      utilisateur (ergonomie et interface utilisateur) et gagner en cohérence visuelle. <br/>
       Nous avons donc opéré la refonte du site et de son identité graphique.
   medium: Direction Artistique • Web Design • UI-UX • Développement Frontend
   first_image: images/work/kwaala/kwaala-1.jpg
