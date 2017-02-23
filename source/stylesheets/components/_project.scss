@@ -76,3 +76,19 @@
     }
   }
 }
+
+.other-projects {
+  display: flex;
+  justify-content: center;
+}
+.arrow-projects {
+  margin: 0 20px;
+  a {
+    color: $poulpe-black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    &:hover {
+      color: $poulpe-orange;
+    }
+  }
+}

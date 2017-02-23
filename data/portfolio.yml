@@ -12,7 +12,7 @@ yoo:
       à démontrer. Mais bien souvent seule une poignée d’influenceurs 
       digitaux, les plus côtés, est sollicitée. Spécialisée dans la mise 
       en relation de marques (Parrot, Kenzo, Le Bon Marché, …) 
-      et de consommateurs influents, <a href="http://www.woo.paris/">l’agence d’influence digitale WOÔ</a> 
+      et de consommateurs influents, <a href="http://www.woo.paris/" target="_blank">l’agence d’influence digitale WOÔ</a> 
       souhaitait une plateforme innovante qui gagnerait en force de frappe 
       en permettant à des micro-influenceurs de s’investir dans les campagnes. 
       <br /><br />
@@ -35,7 +35,7 @@ yoo:
     - url: images/work/yoo/yoo-2.jpg
     - url: images/work/yoo/yoo-3.jpg
   credits: |
-    Direction Artistique : <a href="http://www.maisontsay.com/">Maison Tsay</a>
+    Direction Artistique : <a href="http://www.maisontsay.com/" target="_blank">Maison Tsay</a>
   color_classes: bg-yoo bg-dark
   # reco: | 
   #   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -43,9 +43,10 @@ yoo:
   #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
   #   ratione molestiae reprehenderit eaque aspernatur non.
   # referer: Agathe Nicolle
+  next: wemind
 wemind:
   name: Wemind
-  client: <a href="http://www.wemind.io/">Wemind</a>
+  client: <a href="http://www.wemind.io/" target="_blank">Wemind</a>
   slug: Application Web
   img_thumbnail: images/work/wemind/wemind-thumbnail.jpg
   img_banner: images/work/wemind/wemind-banner.jpg
@@ -72,7 +73,7 @@ wemind:
     - url: images/work/wemind/wemind-2.jpg
     - url: images/work/wemind/wemind-3.jpg
   credits: |
-    Direction Artistique : <a href="http://antonylegrand.com/">Antony Legrand</a>
+    Direction Artistique : <a href="http://antonylegrand.com/" target="_blank">Antony Legrand</a>
   color_classes: bg-wemind bg-dark
   reco: |
     Nous avons fait appel à Poulpe pour créer rapidement la première version 
@@ -85,6 +86,8 @@ wemind:
     J’ajoute également que la relation de travail était fluide et agréable. <br/>
     Merci et bravo pour votre efficacité et votre professionnalisme !
   referer: Hind Elidrissi - Présidente
+  next: watchdogs
+  previous: yoo
 watchdogs:
   name: Watchdogs
   client: Agence Ant.
@@ -116,6 +119,8 @@ watchdogs:
     regard aussi bien technique que créatif, ce qui est indispensable 
     pour proposer des projets digitaux différenciants.
   referer: Antoine Ayoub
+  next: pacorabanne
+  previous: wemind
 pacorabanne:
   name: Paco Rabanne
   client: Agence Ant.
@@ -143,9 +148,11 @@ pacorabanne:
     regard aussi bien technique que créatif, ce qui est indispensable 
     pour proposer des projets digitaux différenciants.
   referer: Antoine Ayoub - Président
+  next: mamagoto
+  previous: watchdogs
 mamagoto:
   name: Mamagoto
-  client: <a href="http://wwww.mamagoto.fr/">Mamagoto</a>
+  client: <a href="http://wwww.mamagoto.fr/" target="_blank">Mamagoto</a>
   slug: Site statique
   img_thumbnail: images/work/mamagoto/mamagoto-thumbnail.jpg
   img_banner: images/work/mamagoto/mamagoto-banner.jpg
@@ -170,9 +177,11 @@ mamagoto:
   #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
   #   ratione molestiae reprehenderit eaque aspernatur non.
   # referer: Guillaume Cazier
+  next: kwaala
+  previous: pacorabanne
 kwaala:
   name: Kwaala
-  client: <a href="http://wwww.mamagoto.fr/">Kwaala</a>
+  client: <a href="http://wwww.kwaala.fr/" target="_blank">Kwaala</a>
   slug: Application Web
   img_thumbnail: images/work/kwaala/kwaala-thumbnail.jpg
   img_banner: images/work/kwaala/kwaala-banner.jpg
@@ -201,10 +210,12 @@ kwaala:
   #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
   #   ratione molestiae reprehenderit eaque aspernatur non.
   # referer: Mathilde Lefrançois
+  next: eticss
+  previous: mamagoto
 eticss:
   name: eTICSS
   slug: Site statique
-  client: <a href="http://www.agencebastille.com/">Agence Bastille</a>
+  client: <a href="http://www.agencebastille.com/" target="_blank">Agence Bastille</a>
   img_thumbnail: images/work/eticss/eticss-thumbnail.jpg
   img_banner: images/work/eticss/eticss-banner.jpg
   category: fullstack
@@ -227,6 +238,7 @@ eticss:
   #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
   #   ratione molestiae reprehenderit eaque aspernatur non.
   # referer: Lucinda Terreyre
+  previous: kwaala
 
 
 

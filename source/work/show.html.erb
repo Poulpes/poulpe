@@ -57,6 +57,21 @@
       <% end %>
     <% end %>
   </div>
+
+  <div class="other-projects">
+    <div class="arrow-projects">
+    <% if project.previous %>
+      <%= link_to "<< précédent", "/work/#{project.previous}.html" %>
+    <% end %>
+    </div>
+    <div class="arrow-projects">
+    <% if project.next %>
+      <%= link_to "suivant >>", "/work/#{project.next}.html" %>
+    <% end %>
+    </div>
+
+  </div>
 </div>
+
 
 <%= partial 'footer' %>
