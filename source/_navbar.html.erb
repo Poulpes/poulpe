@@ -33,7 +33,7 @@
           <%= link_to "L'agence", "/agence.html", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color} #{nav_active('agence.html')}" %>
         </li>
         <li>
-          <%= link_to "Contact", "#", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color}" %>
+          <%= mail_to "hello@poulpe.co", "Contact", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color}" %>
         </li>
       </ul>
     </div>
