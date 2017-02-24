@@ -1,9 +1,9 @@
 .masonry-grid {
-  height: 150vh;
+  height: 170vh;
   display: flex;
   justify-content: space-between;
   @media (max-width: $screen-lg) {
-    height: 170vh;
+    height: 180vh;
   }
   @media (max-width: $screen-md) {
     height: inherit;
@@ -21,10 +21,10 @@
     background-position: center;
   }
   .masonry-picture-onethird {
-    height: 49vh;
+    height: 55.5vh;
   }
   .masonry-text-onethird {
-    height: 49vh;
+    height: 55.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@
     }
   }
   .masonry-picture-twothird {
-    height: 99.5vh;
+    height: 112.8vh;
   }
   .masonry-text-twothird {
     height: 91vh;
@@ -49,10 +49,10 @@
   }
   @media (max-width: $screen-lg) {
     .masonry-text-onethird {
-      height: 56vh;
+      height: 59vh;
     }
     .masonry-picture-twothird {
-      height: 113vh;
+      height: 119.5vh;
     }
   }
   @media (max-width: $screen-md) {

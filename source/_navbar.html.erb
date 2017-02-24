@@ -10,7 +10,7 @@
 
     <%= link_to "Portfolio", "/", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color} #{nav_active("index.html")}" %>
     <%= link_to "L'agence", "/agence.html", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color} #{nav_active('agence.html')}" %>
-    <%= mail_to "hello@poulpe.co", "Contact", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color}" %>
+    <%= link_to "Contact", "/contact.html", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color}" %>
 
   </div>
   
@@ -33,7 +33,7 @@
           <%= link_to "L'agence", "/agence.html", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color} #{nav_active('agence.html')}" %>
         </li>
         <li>
-          <%= mail_to "hello@poulpe.co", "Contact", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color}" %>
+          <%= link_to "Contact", "/contact.html", class: "navbar-wagon-item navbar-wagon-link link-#{navbar_color}" %>
         </li>
       </ul>
     </div>
