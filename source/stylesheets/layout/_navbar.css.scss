@@ -10,6 +10,13 @@
   @media (max-width: $screen-md) {
     padding: 0px 40px;
   }
+  @media (max-width: $screen-md) {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    z-index: 20;
+  }
   @media (max-width: $screen-xs) {
     padding: 0px 20px;
   }

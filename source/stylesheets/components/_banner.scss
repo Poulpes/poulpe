@@ -6,6 +6,8 @@
   @media (max-width: $screen-md) {
     height: inherit;
     flex-direction: column;
+    margin-top: 80px;
+
   }
   &-pattern {
     flex: 0 0 25%;
@@ -30,6 +32,7 @@
       flex: 1;
     }
     @media (max-width: $screen-xs) {
+      height: 250px;
       padding: 20px;
       h1 {
         font-size: 20px;
@@ -52,6 +55,9 @@
       height: 40vh;
       flex: 1;
     }
+    @media (max-width: $screen-xs) {
+      height: 250px;
+    }
   }
   &-link {
     // position: absolute;
@@ -67,6 +73,9 @@
   height: 50vh;
   background-size: cover;
   background-position: center;
+  @media (max-width: $screen-md) {
+    margin-top: 80px;
+  }
 }
 
 .banner-work-hover {

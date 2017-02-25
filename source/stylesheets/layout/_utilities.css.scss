@@ -30,8 +30,10 @@
   .full-height-container {
     min-height: calc(100vh - 80px - 100px);
     display: flex;
-
     justify-content: center;
+    @media (max-width: $screen-md) {
+      margin-top: 80px;
+    }
   }
 
 // Paddings
