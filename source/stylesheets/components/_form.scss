@@ -1,14 +1,14 @@
 .contact-form-container {
   width: 30%;
   margin: auto; 
-  background: white;
+  border: 2px solid white;
   padding: 30px;
   border-radius: 4px;
   input[type="email"], input[type="text"] {
     border: none;
     outline: none;
     box-shadow: none;
-    background-color: #f1f1f1;
+    background-color: white;
     height: 50px;
     border-radius: 50px;
     padding-left: 24px;
@@ -22,7 +22,7 @@
     border: none;
     outline: none;
     box-shadow: none;
-    background-color: #f1f1f1;
+    background-color: white;
     border-radius: 10px;
     padding-left: 24px;
     resize: none;

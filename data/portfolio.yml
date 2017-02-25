@@ -25,7 +25,7 @@ yoo:
   first_image: images/work/yoo/yoo-1.jpg
   goal: |
     Création d’une architecture reposant sur 3 plateformes indépendantes 
-    ayant chacunes des buts différents : <br />
+    ayant chacunes des buts différents&nbsp;: <br />
     Une plateforme “influenceurs” attractive et gamifiée, 
     une plateforme “marques” permettant une prise de brief simplifiée et 
     un back-office “agence” visant à optimiser certains process métiers. <br />
@@ -37,12 +37,6 @@ yoo:
   credits: |
     Direction Artistique : <a href="http://www.maisontsay.com/" target="_blank">Maison Tsay</a>
   color_classes: bg-yoo bg-dark
-  # reco: | 
-  #   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-  #   Minima nesciunt optio consequuntur facilis, amet quibusdam, 
-  #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
-  #   ratione molestiae reprehenderit eaque aspernatur non.
-  # referer: Agathe Nicolle
   next: wemind
 wemind:
   name: Wemind
@@ -75,17 +69,6 @@ wemind:
   credits: |
     Direction Artistique : <a href="http://antonylegrand.com/" target="_blank">Antony Legrand</a>
   color_classes: bg-wemind bg-dark
-  reco: |
-    Nous avons fait appel à Poulpe pour créer rapidement la première version 
-    de notre site. Les développements ont été effectués en un temps record 
-    et tous les bugs ont été corrigés dans les 24 heures.
-    A la date de livraison, le site était opérationnel et sans aucun bug, 
-    je crois que c’est la première fois que je vois ça dans un projet 
-    informatique. Lorsque le site a été repris par notre équipe interne, 
-    le code était clair et optimisé pour la suite.
-    J’ajoute également que la relation de travail était fluide et agréable. <br/>
-    Merci et bravo pour votre efficacité et votre professionnalisme !
-  referer: Hind Elidrissi - Présidente
   next: watchdogs
   previous: yoo
 watchdogs:
@@ -98,7 +81,7 @@ watchdogs:
   url: /work/watchdogs.html
   category: frontend
   description: |
-    Pour le lancement du jeu vidéo Watchdogs, Ubisoft organise un jeu concours : 
+    Pour le lancement du jeu vidéo Watchdogs, Ubisoft organise un jeu concours&nbsp;: 
     les utilisateurs doivent créer une vidéo sur leurs vision des 'hackers'.
     Le concours s'organise en 4 phases : la phase d'annonce du concours, la phase
     de participation, l'annonce de la sélection officielle et l'annonce des gagnants. 
@@ -108,17 +91,6 @@ watchdogs:
     - url: images/work/watchdogs/watchdogs-1.jpg
     - url: images/work/watchdogs/watchdogs-2.jpg
   color_classes: bg-watchdogs bg-dark
-  reco: | 
-    Nous avons eu la chance de travailler avec Poulpe dans le cadre de 
-    projets importants pour notre agence. Nous avons apprécié le respect 
-    des deadlines, la qualité des livrables, l’engagement de l’équipe pour 
-    la réussite des projets. Leur force de proposition et leur 
-    professionalisme à toute épreuve en font un partenaire privilégié et 
-    de confiance avec qui c’est un plaisir de travailler. 
-    La complémentarité de leurs équipes apporte de la flexibilité et un 
-    regard aussi bien technique que créatif, ce qui est indispensable 
-    pour proposer des projets digitaux différenciants.
-  referer: Antoine Ayoub
   next: pacorabanne
   previous: wemind
 pacorabanne:
@@ -137,17 +109,6 @@ pacorabanne:
     - url: images/work/pacorabanne/blackxs.mp4
     - url: images/work/pacorabanne/onemilion.mp4
   color_classes: bg-paco bg-dark
-  reco: | 
-    Nous avons eu la chance de travailler avec Poulpe dans le cadre de 
-    projets importants pour notre agence. Nous avons apprécié le respect 
-    des deadlines, la qualité des livrables, l’engagement de l’équipe pour 
-    la réussite des projets. Leur force de proposition et leur 
-    professionalisme à toute épreuve en font un partenaire privilégié et 
-    de confiance avec qui c’est un plaisir de travailler. 
-    La complémentarité de leurs équipes apporte de la flexibilité et un 
-    regard aussi bien technique que créatif, ce qui est indispensable 
-    pour proposer des projets digitaux différenciants.
-  referer: Antoine Ayoub - Président
   next: mamagoto
   previous: watchdogs
 mamagoto:
@@ -171,12 +132,6 @@ mamagoto:
     - url: images/work/mamagoto/mamagoto-2.jpg
     - url: images/work/mamagoto/mamagoto-3.jpg
   color_classes: bg-mamagoto bg-dark
-  # reco: | 
-  #   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-  #   Minima nesciunt optio consequuntur facilis, amet quibusdam, 
-  #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
-  #   ratione molestiae reprehenderit eaque aspernatur non.
-  # referer: Guillaume Cazier
   next: kwaala
   previous: pacorabanne
 kwaala:
@@ -232,12 +187,6 @@ eticss:
   images:
     - url: images/work/eticss/eticss-1.jpg
   color_classes: bg-eticss bg-dark
-  # reco: | 
-  #   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-  #   Minima nesciunt optio consequuntur facilis, amet quibusdam, 
-  #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
-  #   ratione molestiae reprehenderit eaque aspernatur non.
-  # referer: Lucinda Terreyre
   previous: kwaala
 
 
