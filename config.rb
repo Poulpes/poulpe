@@ -86,6 +86,11 @@ configure :build do
   activate :build_cleaner
 end
 
+# Sitemap
+set :url_root, 'http://www.poulpe.co'
+
+activate :search_engine_sitemap
+
 # Deployment
 activate :deploy do |deploy|
   deploy.method = :git
