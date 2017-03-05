@@ -39,10 +39,11 @@
   }
 }
 
-.social-media {
+.icon-container {
   a {
     color: $poulpe-black;
     font-size: 40px;
+    margin: 0 10px;
     transition: all 0.3s ease;
     &:hover {
       color: $poulpe-orange
