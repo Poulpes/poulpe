@@ -1,4 +1,3 @@
-
 <div class="banner-project" style="background-image: url(<%= image_path "full-motif-#{color}.jpg" %> ); ">
 </div>
 
@@ -9,13 +8,13 @@
         <h1>Nous sommes</h1>
         <p>
           <span class="text-bold">Une agence de création digitale. </span><br>
-          Inspirés des start-up et des nouveaux écosystèmes, nos process nous permettent d’aller plus vite et d’être plus flexibles. 
+          Inspirés des start-up et des nouveaux écosystèmes, nos process nous permettent d’aller plus vite et d’être plus flexibles.
           Nous nous appuyons sur un réseau de compétences pluri-disciplinaire pour répondre au mieux à vos demandes. <br>
           Notre mission&nbsp;? Vous accompagner pour donner vie à des projets innovants et créatifs et ainsi créer la meilleure expérience digitale pour votre marque et votre cible.
         </p>
       </div>
     </div>
-    
+
     <div class="masonry-grid">
       <div class="masonry-column">
         <div class="masonry-picture bg-orange masonry-text-onethird">
@@ -70,12 +69,22 @@
             <h2>Nous trouver</h2>
             <p><span class="text-bold">@Le Wagon</span>, 16 villa Gaudelet, 75011 Paris</p>
             <a href="https://www.facebook.com/agencepoulpe"><i class="fa fa-facebook-square"></i></a>
-            <a href="http://instagram.com/agencepoulpe"><i class="fa fa-instagram"></i></a>  
-            <a href="https://www.linkedin.com/company-beta/11049948/"><i class="fa fa-linkedin"></i></a>         
+            <a href="http://instagram.com/agencepoulpe"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company-beta/11049948/"><i class="fa fa-linkedin"></i></a>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Insta Feed -->
+
+    <%# insta_posts.take(6).each do |post| %>
+      <%# link_to post[:link], target: "blank" do %>
+        <%#= post[:caption] %>
+        <%#= post[:likes] %>
+        <!-- <img src="<%#= post[:image_url] %>" width='213' height='213'> -->
+      <%# end %>
+    <%# end %>
 
   </div>
 </div>
