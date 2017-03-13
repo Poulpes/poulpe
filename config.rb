@@ -1,3 +1,6 @@
+require 'json'
+require 'open-uri'
+
 ###
 # Compass
 ###
@@ -55,6 +58,21 @@ helpers do
 
   def nav_active(path)
     current_page.path == path ? "active" : ""
+  end
+
+  def insta_posts
+    url = "https://www.instagram.com/agencepoulpe/media/"
+    insta_response = JSON.parse(open(url).read)
+    posts = []
+    insta_response["items"].each do |item|
+      post = {}
+      post[:link] = item["link"]
+      post[:caption] = item["caption"]["text"]
+      post[:likes] = item["likes"]["count"]
+      post[:image_url] = item["images"]["low_resolution"]["url"]
+      posts << post
+    end
+    return posts
   end
 end
 
