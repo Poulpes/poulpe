@@ -1,93 +1,172 @@
-<div class="banner-project" style="background-image: url(<%= image_path "full-motif-#{color}.jpg" %> ); ">
-</div>
-
 <div class="agency-container">
-  <div class="agency-content">
-    <div class="agency-intro text-center">
-      <div class="agency-intro-content">
-        <h1>Nous sommes</h1>
-        <p>
-          <span class="text-bold">Une agence de création digitale. </span><br>
-          Inspirés des start-up et des nouveaux écosystèmes, nos process nous permettent d’aller plus vite et d’être plus flexibles.
-          Nous nous appuyons sur un réseau de compétences pluri-disciplinaire pour répondre au mieux à vos demandes. <br>
-          Notre mission&nbsp;? Vous accompagner pour donner vie à des projets innovants et créatifs et ainsi créer la meilleure expérience digitale pour votre marque et votre cible.
-        </p>
+  <div class="agency-intro text-center">
+    <h1>Nous sommes une agence de création digitale.</h1>
+    <p>
+      Nous vous accompagnons pour donner vie à des projets innovants et créatifs. <br>
+      Notre mission ? <strong>Créer la meilleure expérience digitale pour votre marque et votre cible</strong>. Notre écosystème naturel est celui des start-ups. Issus de cette culture entrepreneuriale, nos <strong>process légers et performants</strong> nous permettent d’être <strong>souples et réactifs au changement.</strong> <br>
+      Le poulpe a ses tentacules, nous avons notre réseau. Nous collaborons avec des designers, des développeurs, des growth hackers et autres maillons de la chaîne digitale pour vous accompagner dans toutes vos demandes.
+    </p>
+    <%= link_to "Nos réalisations", "/", class: "btn-poulpe" %>
+  </div>
+  <hr>
+  <div class="founders">
+    <h2 class="text-center">Les fondatrices</h2>
+    <div class="line"></div>
+    <div class="founder">
+      <div class="founder-image">
+        <%= image_tag "alice.jpg" %>
       </div>
-    </div>
-
-    <div class="masonry-grid">
-      <div class="masonry-column">
-        <div class="masonry-picture bg-orange masonry-text-onethird">
-          <div class="review-container text-center">
-            <%= partial "work/quote" %>
-            <p>
-              Nous avons fait appel à Poulpe pour créer rapidement la première version de notre site. Les développements ont été effectués en un temps record et tous les bugs ont été corrigés dans les 24 heures.
-              A la date de livraison, le site était opérationnel et sans aucun bug, je crois que c’est la première fois que je vois ça dans un projet informatique. Lorsque le site a été repris par notre équipe interne, le code était clair et optimisé pour la suite. J’ajoute également que la relation de travail était fluide et agréable. <br/>
-              Merci et bravo pour votre efficacité et votre professionnalisme&nbsp;!
-            </p>
-            <span>Hind Elidrissi, Co-fondatrice - <a href="/work/wemind.html">Wemind</a></span>
-          </div>
-        </div>
-        <div class="bg-grey masonry-text-onethird" id="masonry-services">
-          <div class="services">
-            <h2>Nous faisons</h2>
-            <p>
-              <span class="text-bold">Conception fonctionnelle et conseil UX</span> <br>
-              - Wireframe <br>
-              - Design produit <br>
-              - UX/UI <br>
-              - Conception user-centric
-            </p>
-            <p>
-              <span class="text-bold">Développement et conseil technique</span> <br>
-              - Sites statiques<br>
-              - Application web<br>
-              - Opération marketing digitale
-            </p>
-            <p>
-              <span class="text-bold">Création</span><br>
-              - Web Design<br>
-              - Direction Artistique
-            </p>
-          </div>
-        </div>
-        <div class="bg-blue masonry-text-onethird">
-          <div class="review-container review-container-black text-center">
-            <%= partial "work/quote" %>
-            <p>
-              Nous avons eu la chance de travailler avec Poulpe dans le cadre de projets importants pour notre agence. Nous avons apprécié le respect des deadlines, la qualité des livrables, l’engagement de l’équipe pour la réussite des projets. Leur force de proposition et leur professionalisme à toute épreuve en font un partenaire privilégié et de confiance avec qui c’est un plaisir de travailler. La complémentarité de leurs équipes apporte de la flexibilité et un regard aussi bien technique que créatif, ce qui est indispensable pour proposer des projets digitaux différenciants.
-            </p>
-            <span>Antoine Ayoub, Fondateur Ant. - (<a href="/work/watchdogs.html">Watchdogs</a> / <a href="/work/pacorabanne.html">Paco Rabanne</a>)</span>
-          </div>
-        </div>
-      </div>
-      <div class="masonry-column">
-        <div class="masonry-picture masonry-picture-twothird" style= "background-image: url(<%= image_path 'mozaic.jpg' %>)">
-        </div>
-        <div class="bg-grey masonry-text-onethird">
-          <div class="icon-container text-center">
-            <h2>Nous trouver</h2>
-            <p><span class="text-bold">@Le Wagon</span>, 16 villa Gaudelet, 75011 Paris</p>
-            <a href="https://www.facebook.com/agencepoulpe"><i class="fa fa-facebook-square"></i></a>
-            <a href="http://instagram.com/agencepoulpe"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/company-beta/11049948/"><i class="fa fa-linkedin"></i></a>
+      <div class="founder-bio bg-white">
+        <div class="">
+          <h3>Alice</h3>
+          <p>
+            Après cinq années passées dans l'édition
+            à relire des manuscrits en tous genres,
+            Alice a décidé de plaquer le papier
+            pour le web. Mais ne vous y fiez pas. Une
+            formation au Wagon et un an passé en tant
+            que développeuse en agence plus tard,
+            c’est la plus geek de la bande.
+            Elle a une passion pour le code propre et
+            quitte rarement son terminal, si ce n’est
+            pour aider les élèves du Wagon, où elle
+            est Teacher Assistant.
+          </p>
+          <div class="contact-information">
+            <a href="https://github.com/alicemomo">
+              <div class="circle-icon">
+                <i class="fa fa-github"></i>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/alice-morin-20923970/">
+              <div class="circle-icon">
+                <i class="fa fa-linkedin"></i>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
+    <div class="founder">
+      <div class="founder-bio bg-white">
+        <div class="">
+          <h3>Karine</h3>
+          <p>
+            Karine est une créative dans l’âme qui,
+            après avoir exercé cinq ans en tant que
+            Directrice Artistique, décide d’ajouter
+            une corde à son arc et se forme au développement web.
+            Elle partage aujourd’hui ses journées
+            entre du design d’interface, du développement web
+            et les cours qu’elle enseigne au Wagon.
+            Et en foodista passionnée qu’elle est,
+            n’abandonne pas l’idée d’ouvrir un jour
+            son restaurant... Affaire à suivre !
+          </p>
+          <div class="contact-information">
+            <a href="https://github.com/karine03">
+              <div class="circle-icon">
+                <i class="fa fa-github"></i>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/karine-bialobroda-86911424/">
+              <div class="circle-icon">
+                <i class="fa fa-linkedin"></i>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/karine03/">
+              <div class="circle-icon">
+                <i class="fa fa-instagram"></i>
+              </div>
+            </a>
+            <a href="https://twitter.com/BLBRD_Paris">
+              <div class="circle-icon">
+                <i class="fa fa-twitter"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
 
-    <!-- Insta Feed -->
-
-    <%# insta_posts.take(6).each do |post| %>
-      <%# link_to post[:link], target: "blank" do %>
-        <%#= post[:caption] %>
-        <%#= post[:likes] %>
-
-        <!-- original image size is 320x320 -->
-
-        <!-- <img src="<%#= post[:image_url] %>" width='213' height='213'> -->
-      <%# end %>
-    <%# end %>
-
+      <div class="founder-image">
+        <%= image_tag 'karine.jpg' %>
+      </div>
+    </div>
   </div>
 </div>
+<div class="services-container">
+  <div class="agency-container">
+    <h2 class="text-center">Notre expertise</h2>
+    <div class="line"></div>
+    <div class="services">
+      <div class="service-column">
+        <div class="service">
+           <%= image_tag 'icons/dev.svg' %>
+           <h3>Développement Web</h3>
+           <p>
+             Notre approche est pragmatique : nous privilégions la simplicité et les itérations. Nous développons à la main, sans CMS et nous refusons le code jetable. Notre pratique du développement web est constamment guidée par des impératifs de réutilisabilité et de durabilité. <br>
+             Nous avons choisi Ruby on Rails pour le développement backend de nos projets. C’est une technologie solide, utilisée par des acteurs majeurs du web (AirBnb, Kickstarter, entre autres), qui permet de couvrir tous les besoins depuis le site vitrine jusqu’à l’application web complexe.
+           </p>
+        </div>
+        <div class="service">
+          <%= image_tag 'icons/creation.svg' %>
+          <h3>Web Design et Direction Artistique</h3>
+          <p>
+            Nous sommes convaincus qu’un bon produit passe par un design adapté. C’est pourquoi chez Poulpe, designers et développeurs travaillent ensemble.
+          </p>
+        </div>
+      </div>
+      <div class="service-column">
+        <div class="service">
+          <%= image_tag 'icons/conception.svg' %>
+          <h3>Conception fonctionnelle et conseil UX</h3>
+          <p>
+            Notre savoir-faire technique nous permet de vous conseiller intelligemment dans la conception fonctionnelle de votre projet. Nous participons si besoin à l’élaboration de votre cahier des charges et de l’architecture de votre site.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="agency-container">
+  <div class="clients">
+
+    <a href="#wemind" class="review-tab active" data-target="#wemind">Wemind</a>
+    <a href="#kwaala" class="review-tab" data-target="#kwaala">Kwaala</a>
+    <a href="#bastille" class="review-tab" data-target="#bastille">Agence Bastille</a>
+    <a href="#ant" class="review-tab" data-target="#ant">Ant.</a>
+
+  </div>
+  <div class="review-container active text-center" id="wemind">
+    <%= partial "work/quote" %>
+    <p>
+      Nous avons fait appel à Poulpe pour créer rapidement la première version de notre site. Les développements ont été effectués en un temps record et tous les bugs ont été corrigés dans les 24 heures.
+      A la date de livraison, le site était opérationnel et sans aucun bug, je crois que c’est la première fois que je vois ça dans un projet informatique. Lorsque le site a été repris par notre équipe interne, le code était clair et optimisé pour la suite. J’ajoute également que la relation de travail était fluide et agréable. <br/>
+      Merci et bravo pour votre efficacité et votre professionnalisme&nbsp;!
+    </p>
+    <span>Hind Elidrissi, Co-fondatrice - <a href="/work/wemind.html">Wemind</a></span>
+  </div>
+  <div class="review-container text-center" id="kwaala">
+    <%= partial "work/quote" %>
+    <p>
+      Poulpe a refait le design du site kwaala.fr avec beaucoup de professionnalisme et sérieux en un temps record ! Toujours à l'écoute, pleine de créativité et nouvelles idées: le résultat était impeccable et je les en remercie.
+    </p>
+    <span>Mathilde Lefrancois, Fondatrice - <a href="/work/kwaala.html">Kwaala</a></span>
+  </div>
+  <div class="review-container text-center" id="bastille">
+    <%= partial "work/quote" %>
+    <p>
+      Aussi bien en terme de graphisme qu’en développement pure, l’équipe de Poulpe apporte son expertise et conseille pour une expérience utilisateur des plus fluide tout en intégrant les contraintes clients. Et pour la recette, ça n’a jamais été aussi rapide !
+    </p>
+    <span>Lucinda Terreyre, Digital Manager - <a href="/work/eticss.html">Agence Bastille</a></span>
+  </div>
+  <div class="review-container text-center" id="ant">
+    <%= partial "work/quote" %>
+    <p>
+      Nous avons eu la chance de travailler avec Poulpe dans le cadre de projets importants pour notre agence. Nous avons apprécié le respect des deadlines, la qualité des livrables, l’engagement de l’équipe pour la réussite des projets. Leur force de proposition et leur professionalisme à toute épreuve en font un partenaire privilégié et de confiance avec qui c’est un plaisir de travailler. La complémentarité de leurs équipes apporte de la flexibilité et un regard aussi bien technique que créatif, ce qui est indispensable pour proposer des projets digitaux différenciants.
+    </p>
+    <span>Antoine Ayoub, Fondateur - <a href="/work/watchdogs.html">Ant.</a></span>
+  </div>
+</div>
+
+<%= partial 'insta_feed' %>

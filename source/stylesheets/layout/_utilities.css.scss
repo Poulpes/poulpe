@@ -20,11 +20,15 @@
   }
 
   .agency-container {
-    width: 80%;
+    width: 75%;
     margin: auto;
-    @media (max-width: $screen-xs) {
-      width: 90%;
-    }
+    // padding: 0 50px;
+    // @media (max-width: $screen-md) {
+    //   padding: 0px 40px;
+    // }
+    // @media (max-width: $screen-xs) {
+    //   padding: 0px 20px;
+    // }
   }
 
   .full-height-container {
@@ -86,6 +90,9 @@
   }
   .bg-orange {
     background-color: $poulpe-orange;
+  }
+  .bg-white {
+    background-color: white;
   }
 
 // links

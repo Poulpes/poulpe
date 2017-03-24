@@ -1,43 +1,77 @@
-.agency-content {
-  margin-top: 30px;
-}
-.agency-intro {
-  background: #282828;
-  color: white;
-  padding: 40px;
-  margin-bottom: 10px;
-  @media (max-width: $screen-md) {
-    margin-bottom: 0;
+.agence{
+  background-color: #f1f1f1;
+  hr {
+    border-top: 1px solid #d8d8d8;
   }
-  @media (max-width: $screen-xs) {
-    padding: 20px;
-  }
-}
-.agency-intro-content {
-  width: 65%;
-  margin: auto;
-  h1 {
+  h2 {
+    font-size: 24px;
     font-style: italic;
-    margin: 0;
   }
-  p {
-    margin: 0;
+}
+.agency-content {
+  margin-top: 50px;
+}
+
+.founders {
+  margin: 35px 0;
+  .line {
+    margin-bottom: 25px;
   }
-  @media (max-width: $screen-xs) {
+}
+
+.founder {
+  display: flex;
+}
+
+.founder-image {
+  flex: 0 0 50%;
+  img {
     width: 100%;
   }
 }
 
-.services {
-  h2 {
-    font-size: 22px;
-    margin: 0;
+.founder-bio {
+  flex: 0 0 50%;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h3 {
+    margin-top: 0;
     font-style: italic;
   }
-  p:last-child {
-    margin-bottom: 0;
+}
+
+.contact-information {
+  margin-top:15px;
+  display:flex;
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right:10px;
+    &:hover {
+      .circle-icon {
+        background-color: darken($poulpe-blue, 5%);
+      }
+    }
   }
 }
+
+.agency-intro {
+  padding: 70px 0 40px 0;
+  h1 {
+    font-style: italic;
+    margin: 0;
+    font-size: 40px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.8;
+  }
+}
+
 
 .icon-container {
   a {
@@ -51,15 +85,47 @@
   }
 }
 
+
+.services-container {
+  background: white;
+  padding: 50px 0;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  .service-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 46%;
+  }
+  h3 {
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+}
+.service {
+  margin: 20px 0;
+  img {
+    width: 50px;
+  }
+}
+
+
+
 .review-container {
+  display: none;
+  &.active {
+    display: inherit;
+  }
   padding: 40px 20px;
-  color: white;
   svg {
     margin-bottom: 20px;
   }
   #quote-path {
-    fill: white;
-    opacity: 0.6;
+    fill: $poulpe-blue;
   }
   span {
     font-family: $header-font;
@@ -67,22 +133,12 @@
     font-style: italic;
   }
   a {
-    color: white;
+    color: $poulpe-blue;
     font-weight: bolder;
-    opacity: 0.6;
     transition: all 0.3s ease;
     &:hover {
-      opacity:1;
-    }
-  }
-  &-black {
-    color: $poulpe-black;
-    #quote-path {
-      fill: $poulpe-black;
-      opacity: 0.3;
-    }
-    a {
-      color: $poulpe-black;
+      color: darken($poulpe-blue, 5%);
+      text-decoration: none;
     }
   }
 }
