@@ -173,4 +173,89 @@
   </div>
 </div>
 
+<div class="map-container hidden-xs">
+  <div id="map" style="width: 100%; height: 60vh;">
+  </div>
+  <div class="map-info text-center">
+    <h2 class="text-center">Nous trouver</h2>
+    <div class="line"></div>
+    <p> 
+      <strong>@Le Wagon</strong> <br>
+      16 villa Gaudelet <br>
+      75011 Paris
+    </p>
+    <div class="contact-information text-center">
+      <a href="https://www.facebook.com/agencepoulpe">
+        <div class="circle-icon">
+          <i class="fa fa-facebook-square"></i>
+        </div>
+      </a>
+      <a href="http://instagram.com/agencepoulpe">
+        <div class="circle-icon">
+          <i class="fa fa-instagram"></i>
+        </div>
+      </a>  
+      <a href="https://www.linkedin.com/company-beta/11049948/">
+        <div class="circle-icon">
+          <i class="fa fa-linkedin"></i>
+        </div>
+      </a>  
+    </div>
+  </div>
+</div>
+<div id="contact" class="contact-container visible-xs">
+  <div class="container">
+    <div class="contact-info text-center">
+      <h2 class="text-center">Nous trouver</h2>
+      <div class="line"></div>
+      <p> 
+        <strong>@Le Wagon</strong> <br>
+        16 villa Gaudelet <br>
+        75011 Paris
+      </p>
+      <div class="contact-information text-center">
+        <a href="https://www.facebook.com/agencepoulpe">
+          <div class="circle-icon">
+            <i class="fa fa-facebook-square"></i>
+          </div>
+        </a>
+        <a href="http://instagram.com/agencepoulpe">
+          <div class="circle-icon">
+            <i class="fa fa-instagram"></i>
+          </div>
+        </a>  
+        <a href="https://www.linkedin.com/company-beta/11049948/">
+          <div class="circle-icon">
+            <i class="fa fa-linkedin"></i>
+          </div>
+        </a>  
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <%= partial 'insta_feed' %>
+
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript">
+  var myLatlng = new google.maps.LatLng(48.865060, 2.379886);
+
+  var myOptions = {
+    zoom: 16,
+    center: myLatlng,
+    scrollwheel: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    styles: [{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"stylers":[{"hue":"#00aaff"},{"saturation":-100},{"gamma":2.15},{"lightness":12}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"lightness":24}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}] 
+  };
+
+  var map = new google.maps.Map(document.getElementById('map'), myOptions);
+  var marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map,
+    title: "You are here!"
+  });
+</script>

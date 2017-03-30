@@ -1,0 +1,29 @@
+.map-info {
+  position: absolute;
+  z-index: 3;
+  top: 60px;
+  left: 130px;
+  width: 400px;
+  background: white;
+  padding: 50px 20px;
+  border-radius: 4px;
+}
+.map-container {
+  position: relative;
+  .contact-information {
+    justify-content: center;
+  }
+  p {
+    margin-top: 25px;
+  }
+}
+
+.contact-container {
+  background: #eeeeee;
+  padding: 20px 0;
+}
+.contact-info {
+  padding: 20px 0;
+  background: white;
+  border-radius: 4px;
+}
