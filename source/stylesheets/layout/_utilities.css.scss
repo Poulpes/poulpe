@@ -20,10 +20,16 @@
   }
 
   .agency-container {
-    width: 80%;
+    width: 75%;
     margin: auto;
-    @media (max-width: $screen-xs) {
+    @media (max-width: 1025px) {
       width: 90%;
+    }
+    @media (max-width: $screen-md) {
+      margin-top: 30px;
+    }
+    @media (max-width: $screen-xs) {
+       margin-top: 40px;
     }
   }
 
@@ -86,6 +92,9 @@
   }
   .bg-orange {
     background-color: $poulpe-orange;
+  }
+  .bg-white {
+    background-color: white;
   }
 
 // links

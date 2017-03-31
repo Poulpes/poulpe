@@ -1,0 +1,21 @@
+.footer-feed {
+  margin-top: 30px;
+  h3 {
+    font-style: italic;
+  }
+}
+.live-feed {
+  display: flex;
+  @media (max-width: $screen-xs) {
+    flex-wrap: wrap;
+  }
+}
+.insta-image {
+  flex: 0 0 12.5%;
+  img {
+    width: 100%;
+  }
+  @media (max-width: $screen-xs) {
+    flex: 0 0 25%;
+  }
+}
