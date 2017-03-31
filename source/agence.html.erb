@@ -13,8 +13,7 @@
     <h2 class="text-center">Les fondatrices</h2>
     <div class="line"></div>
     <div class="founder">
-      <div class="founder-image">
-        <%= image_tag "alice.jpg" %>
+      <div class="founder-image" style='background-image: url(<%= image_path "alice.jpg" %> );'>
       </div>
       <div class="founder-bio bg-white">
         <div class="">
@@ -88,8 +87,7 @@
         </div>
       </div>
 
-      <div class="founder-image">
-        <%= image_tag 'karine.jpg' %>
+      <div class="founder-image" id="found-image-xs" style='background-image: url(<%= image_path "karine.jpg" %> );'>
       </div>
     </div>
   </div>
@@ -136,6 +134,7 @@
 
       <a href="#wemind" class="review-tab active" data-target="#wemind">Wemind</a>
       <a href="#kwaala" class="review-tab" data-target="#kwaala">Kwaala</a>
+      <br class="visible-xs"><br class="visible-xs"><br class="visible-xs">
       <a href="#bastille" class="review-tab" data-target="#bastille">Agence Bastille</a>
       <a href="#ant" class="review-tab" data-target="#ant">Ant.</a>
 
@@ -204,7 +203,7 @@
   </div>
 </div>
 <div id="contact" class="contact-container visible-xs">
-  <div class="container">
+  <div class="">
     <div class="contact-info text-center">
       <h2 class="text-center">Nous trouver</h2>
       <div class="line"></div>

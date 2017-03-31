@@ -1,6 +1,5 @@
 <div class="text-center">
-
-  <div class="live-feed">
+  <div class="live-feed hidden-sm hidden-md hidden-lg">
     <% insta_posts.take(8).each do |post| %>
       <% link_to post[:link], target: "blank", class:"insta-image" do %>
         <%#= post[:caption] %>
@@ -12,7 +11,19 @@
       <% end %>
     <% end %>
   </div>
-  <div class="live-feed">
+  <div class="live-feed hidden-xs">
+    <% insta_posts.take(8).each do |post| %>
+      <% link_to post[:link], target: "blank", class:"insta-image" do %>
+        <%#= post[:caption] %>
+        <%#= post[:likes] %>
+
+        <!-- original image size is 320x320 -->
+
+        <img src="<%= post[:image_url] %>">
+      <% end %>
+    <% end %>
+  </div>
+  <div class="live-feed hidden-xs">
     <% data.images.each do |image| %>
       <div class="insta-image">
         <%= image_tag image.url, class: "insta-image" %>

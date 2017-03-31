@@ -22,13 +22,15 @@
   .agency-container {
     width: 75%;
     margin: auto;
-    // padding: 0 50px;
-    // @media (max-width: $screen-md) {
-    //   padding: 0px 40px;
-    // }
-    // @media (max-width: $screen-xs) {
-    //   padding: 0px 20px;
-    // }
+    @media (max-width: 1025px) {
+      width: 90%;
+    }
+    @media (max-width: $screen-md) {
+      margin-top: 30px;
+    }
+    @media (max-width: $screen-xs) {
+       margin-top: 40px;
+    }
   }
 
   .full-height-container {

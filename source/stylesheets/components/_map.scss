@@ -7,6 +7,10 @@
   background: white;
   padding: 50px 20px;
   border-radius: 4px;
+  @media (max-width: 1025px) {
+    left: 60px;
+    width: 260px;
+  }
 }
 .map-container {
   position: relative;
@@ -20,10 +24,18 @@
 
 .contact-container {
   background: #eeeeee;
-  padding: 20px 0;
+  padding-top: 20px;
+  .contact-information {
+    justify-content: center;
+  }
+  p {
+    margin-top: 25px;
+  }
 }
 .contact-info {
   padding: 20px 0;
   background: white;
-  border-radius: 4px;
+  h2 {
+    margin-top:0;
+  }
 }
