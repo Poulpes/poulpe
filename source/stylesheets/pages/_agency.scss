@@ -30,6 +30,11 @@
       padding: 30px;
     }
   }
+  @media (max-width: $screen-sm) {
+    .founder-bio, .founder-image {
+      flex: 1;
+    }
+  }
   @media (max-width: $screen-xs) {
     .founder-bio {
       padding: 15px;
@@ -138,6 +143,9 @@
   }
   @media (max-width: $screen-xs) {
     flex-direction: column;
+    .service-column {
+      flex: 1;
+    }
   }
 }
 .service {
