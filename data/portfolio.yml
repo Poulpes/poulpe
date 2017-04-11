@@ -31,7 +31,7 @@ yoo:
     un back-office “agence” visant à optimiser certains process métiers. <br />
     Création d’un outil de statistiques pour la mesure des campagnes.
   images:
-    - url: images/work/yoo/yoo-thumbnail.jpg
+    - url: images/work/yoo/yoo-0.jpg
     - url: images/work/yoo/yoo-2.jpg
     - url: images/work/yoo/yoo-3.jpg
   credits: |
@@ -57,7 +57,7 @@ wemind:
       et "comité d’entreprise", permet d’obtenir très simplement une proposition 
       de prix et le détail des garanties offertes selon l’offre choisie.
   medium: Développement web fullstack
-  first_image: images/work/wemind/wemind-thumbnail.jpg
+  first_image: images/work/wemind/wemind-0.jpg
   goal: |
     Faciliter l’onboarding et rendre l’inscription "mutuelle" plus sexy. <br/>
     Conception d’un questionnaire sous forme de formulaire conversationnel
@@ -86,7 +86,7 @@ watchdogs:
     Le concours s'organise en 4 phases : la phase d'annonce du concours, la phase
     de participation, l'annonce de la sélection officielle et l'annonce des gagnants. 
   medium: Développement Frontend
-  first_image: images/work/watchdogs/watchdogs-thumbnail.jpg
+  first_image: images/work/watchdogs/watchdogs-0.jpg
   images:
     - url: images/work/watchdogs/watchdogs-1.jpg
     - url: images/work/watchdogs/watchdogs-2.jpg
@@ -157,7 +157,7 @@ kwaala:
     Revoir entièrement l’UX de la partie réservation en ligne.
   images:
     - url: images/work/kwaala/kwaala-2.jpg
-    - url: images/work/kwaala/kwaala-thumbnail.jpg
+    - url: images/work/kwaala/kwaala-3.jpg
   color_classes: bg-kwaala bg-dark
   # reco: | 
   #   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -183,7 +183,7 @@ eticss:
       grâce aux services numériques. Ce site-support permet de faciliter 
       le partage de l’information entre les acteurs santé-social. 
   medium: Développement fullstack
-  first_image: images/work/eticss/eticss-thumbnail.jpg
+  first_image: images/work/eticss/eticss-0.jpg
   images:
     - url: images/work/eticss/eticss-1.jpg
   color_classes: bg-eticss bg-dark

@@ -1,6 +1,5 @@
 $(document).ready(function() {
   $('.review-tab').click(function(){
-    console.log('yo');
     // Change active nav tab
     $('.review-tab').removeClass("active");
     $(this).addClass("active");
