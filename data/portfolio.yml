@@ -2,7 +2,7 @@ yoo:
   name: YOÔ
   client: <a href="http://www.woo.paris/" target="_blank">WOÔ</a>
   slug: Application Web 
-  img_thumbnail: images/work/yoo/yoo-thumbnail.jpg
+  img_thumbnail: images/work/yoo/yoo-banner-thumbnail.jpg
   img_banner: images/work/yoo/yoo-banner.jpg
   url: /work/yoo.html
   category: fullstack
