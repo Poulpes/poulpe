@@ -1,3 +1,42 @@
+woo:
+  name: WOÔ
+  client: <a href="http://www.woo.paris/" target="_blank">WOÔ</a>
+  slug: Application Web
+  img_thumbnail: images/work/woo/woo-thumbnail.jpg
+  img_banner: images/work/woo/woo-banner.jpg
+  url: /work/woo.html
+  category: fullstack
+  link: http://www.woo.paris/
+  description: |
+      L’efficacité du marketing de l’influence n’est aujourd’hui plus 
+      à démontrer. Mais bien souvent seule une poignée d’influenceurs 
+      digitaux, les plus côtés, est sollicitée. Spécialisée dans la mise 
+      en relation de marques (Parrot, Kenzo, Le Bon Marché, …) 
+      et de consommateurs influents, <a href="http://www.woo.paris/" target="_blank">l’agence d’influence digitale WOÔ</a> 
+      souhaitait une plateforme innovante qui gagnerait en force de frappe 
+      en permettant à des micro-influenceurs de s’investir dans les campagnes. 
+      <br /><br />
+      Nous avons donc créé l’application web Yoô. 
+      Les influenceurs rejoignent librement la plateforme et synchronisent 
+      leurs réseaux sociaux, les marques expriment leurs besoins et sont 
+      accompagnées par l’équipe Woô dans la conception, la mise en place et 
+      la mesure en temps réel de l'impact de leurs campagnes. 
+  medium: Développement web fullstack
+  first_image: images/work/woo/woo-1.jpg
+  goal: |
+    Création d’une architecture reposant sur 3 plateformes indépendantes 
+    ayant chacunes des buts différents&nbsp;: <br />
+    Une plateforme “influenceurs” attractive et gamifiée, 
+    une plateforme “marques” permettant une prise de brief simplifiée et 
+    un back-office “agence” visant à optimiser certains process métiers. <br />
+    Création d’un outil de statistiques pour la mesure des campagnes.
+  images:
+    - url: images/work/woo/woo-2.jpg
+    - url: images/work/woo/woo-3.jpg
+  credits: |
+    Direction Artistique : <a href="http://www.maisontsay.com/" target="_blank">Maison Tsay</a>
+  color_classes: bg-yoo bg-dark
+  next: yoo
 yoo:
   name: YOÔ
   client: <a href="http://www.woo.paris/" target="_blank">WOÔ</a>
@@ -38,6 +77,7 @@ yoo:
     Direction Artistique : <a href="http://www.maisontsay.com/" target="_blank">Maison Tsay</a>
   color_classes: bg-yoo bg-dark
   next: wemind
+  previous: woo
 wemind:
   name: Wemind
   client: <a href="http://www.wemind.io/" target="_blank">Wemind</a>
@@ -159,12 +199,6 @@ kwaala:
     - url: images/work/kwaala/kwaala-2.jpg
     - url: images/work/kwaala/kwaala-3.jpg
   color_classes: bg-kwaala bg-dark
-  # reco: | 
-  #   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-  #   Minima nesciunt optio consequuntur facilis, amet quibusdam, 
-  #   labore et quis. Fuga ullam blanditiis perspiciatis voluptate ducimus 
-  #   ratione molestiae reprehenderit eaque aspernatur non.
-  # referer: Mathilde Lefrançois
   next: eticss
   previous: mamagoto
 eticss:
