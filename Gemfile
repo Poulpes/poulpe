@@ -13,3 +13,5 @@ gem 'middleman-autoprefixer'
 
 # Sitemap
 gem 'middleman-search_engine_sitemap', '~> 1.3.0'
+
+
