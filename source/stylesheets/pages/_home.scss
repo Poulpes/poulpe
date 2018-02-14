@@ -21,3 +21,17 @@
 		font-style: italic;
 	}
 }
+
+.whishes {
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	a {
+		color: white;
+		font-weight: bolder;
+		text-decoration: underline;
+	}
+	span {
+		margin-left: 20px;
+	}
+}
