@@ -13,6 +13,7 @@ woo:
       avec Parrot, Kenzo, Yves Saint Laurent... WOÔ souhaitait un nouveau
       site et une nouvelle identité visuelle. Plus créative et plus moderne !
   medium: Développement web fullstack
+  goal: Internationalisation du site (français / anglais).<br>Création d'un backoffice d'administration sur-mesure.
   first_image: images/work/woo/woo-1.jpg
   images:
     - url: images/work/woo/woo-2.jpg
@@ -24,33 +25,33 @@ woo:
 yoo:
   name: YOÔ
   client: <a href="http://www.woo.paris/" target="_blank">WOÔ</a>
-  slug: Application Web 
+  slug: Application Web
   img_thumbnail: images/work/yoo/yoo-banner-thumbnail.jpg
   img_banner: images/work/yoo/yoo-banner.jpg
   url: /work/yoo.html
   category: fullstack
   link: http://www.yoo.paris/
   description: |
-      L’efficacité du marketing de l’influence n’est aujourd’hui plus 
-      à démontrer. Mais bien souvent seule une poignée d’influenceurs 
-      digitaux, les plus côtés, est sollicitée. Spécialisée dans la mise 
-      en relation de marques (Parrot, Kenzo, Le Bon Marché, …) 
-      et de consommateurs influents, <a href="http://www.woo.paris/" target="_blank">l’agence d’influence digitale WOÔ</a> 
-      souhaitait une plateforme innovante qui gagnerait en force de frappe 
-      en permettant à des micro-influenceurs de s’investir dans les campagnes. 
+      L’efficacité du marketing de l’influence n’est aujourd’hui plus
+      à démontrer. Mais bien souvent seule une poignée d’influenceurs
+      digitaux, les plus côtés, est sollicitée. Spécialisée dans la mise
+      en relation de marques (Parrot, Kenzo, Le Bon Marché, …)
+      et de consommateurs influents, <a href="http://www.woo.paris/" target="_blank">l’agence d’influence digitale WOÔ</a>
+      souhaitait une plateforme innovante qui gagnerait en force de frappe
+      en permettant à des micro-influenceurs de s’investir dans les campagnes.
       <br /><br />
-      Nous avons donc créé l’application web Yoô. 
-      Les influenceurs rejoignent librement la plateforme et synchronisent 
-      leurs réseaux sociaux, les marques expriment leurs besoins et sont 
-      accompagnées par l’équipe Woô dans la conception, la mise en place et 
-      la mesure en temps réel de l'impact de leurs campagnes. 
+      Nous avons donc créé l’application web Yoô.
+      Les influenceurs rejoignent librement la plateforme et synchronisent
+      leurs réseaux sociaux, les marques expriment leurs besoins et sont
+      accompagnées par l’équipe Woô dans la conception, la mise en place et
+      la mesure en temps réel de l'impact de leurs campagnes.
   medium: Développement web fullstack • UI-UX • Web Design
   first_image: images/work/yoo/yoo-1.jpg
   goal: |
-    Création d’une architecture reposant sur 3 plateformes indépendantes 
+    Création d’une architecture reposant sur 3 plateformes indépendantes
     ayant chacunes des buts différents&nbsp;: <br />
-    Une plateforme “influenceurs” attractive et gamifiée, 
-    une plateforme “marques” permettant une prise de brief simplifiée et 
+    Une plateforme “influenceurs” attractive et gamifiée,
+    une plateforme “marques” permettant une prise de brief simplifiée et
     un back-office “agence” visant à optimiser certains process métiers. <br />
     Création d’un outil de statistiques pour la mesure des campagnes.
   images:
@@ -72,20 +73,20 @@ wemind:
   category: fullstack
   link: http://beta.wemind.io/
   description: |
-      S’étant donnée pour mission de simplifier la vie des freelances 
-      (vraie mutuelle, comité d’entreprise, garantie logement), 
-      Wemind rassemble aujourd’hui plus de 10&nbsp;000 travailleurs indépendants 
-      à travers la France. 
+      S’étant donnée pour mission de simplifier la vie des freelances
+      (vraie mutuelle, comité d’entreprise, garantie logement),
+      Wemind rassemble aujourd’hui plus de 10&nbsp;000 travailleurs indépendants
+      à travers la France.
       <br /><br />
-      Cette version bêta de l’application, centrée sur les services "mutuelle" 
-      et "comité d’entreprise", permet d’obtenir très simplement une proposition 
+      Cette version bêta de l’application, centrée sur les services "mutuelle"
+      et "comité d’entreprise", permet d’obtenir très simplement une proposition
       de prix et le détail des garanties offertes selon l’offre choisie.
   medium: Développement web fullstack
   first_image: images/work/wemind/wemind-0.jpg
   goal: |
     Faciliter l’onboarding et rendre l’inscription "mutuelle" plus sexy. <br/>
     Conception d’un questionnaire sous forme de formulaire conversationnel
-    avec l'objectif de conserver le côté "humain".        
+    avec l'objectif de conserver le côté "humain".
   images:
     - url: images/work/wemind/wemind-1.jpg
     - url: images/work/wemind/wemind-2.jpg
@@ -105,10 +106,10 @@ watchdogs:
   url: /work/watchdogs.html
   category: frontend
   description: |
-    Pour le lancement du jeu vidéo Watchdogs, Ubisoft organise un jeu concours&nbsp;: 
+    Pour le lancement du jeu vidéo Watchdogs, Ubisoft organise un jeu concours&nbsp;:
     les utilisateurs doivent créer une vidéo sur leurs vision des 'hackers'.
     Le concours s'organise en 4 phases : la phase d'annonce du concours, la phase
-    de participation, l'annonce de la sélection officielle et l'annonce des gagnants. 
+    de participation, l'annonce de la sélection officielle et l'annonce des gagnants.
   medium: Développement Frontend
   first_image: images/work/watchdogs/watchdogs-0.jpg
   images:
@@ -150,7 +151,7 @@ mamagoto:
   medium: Direction Artistique • Web Design • Développement Frontend
   first_image: images/work/mamagoto/mamagoto-1.jpg
   goal: |
-    Accompagner un jeune restaurant dans l’affirmation de son identité 
+    Accompagner un jeune restaurant dans l’affirmation de son identité
     et lui permettre de rencontrer sa clientèle.
   images:
     - url: images/work/mamagoto/mamagoto-2.jpg
@@ -168,15 +169,15 @@ kwaala:
   url: /work/kwaala.html
   link: http://kwaala.fr/
   description: |
-      Kwaala, la startup qui permet de louer du matériel de voyage 
-      entre particuliers, offrait déjà un service en ligne apprécié 
-      de ses clients. Le client souhaitait encore améliorer l’expérience 
+      Kwaala, la startup qui permet de louer du matériel de voyage
+      entre particuliers, offrait déjà un service en ligne apprécié
+      de ses clients. Le client souhaitait encore améliorer l’expérience
       utilisateur (ergonomie et interface utilisateur) et gagner en cohérence visuelle. <br/>
       Nous avons donc opéré la refonte du site et de son identité graphique.
   medium: Direction Artistique • Web Design • UI-UX • Développement Frontend
   first_image: images/work/kwaala/kwaala-1.jpg
   goal: |
-    Innover et moderniser l’image de Kwaala tout en capitalisant sur 
+    Innover et moderniser l’image de Kwaala tout en capitalisant sur
     l’existant. <br/>
     Revoir entièrement l’UX de la partie réservation en ligne.
   images:
@@ -195,11 +196,11 @@ eticss:
   url: /work/eticss.html
   link: http://www.eticss.fr/
   description: |
-      Le projet eTICSS (Territoire Innovant Coordonné Santé Social), 
-      co-piloté par l’Agence Régionale de Santé de Bourgogne-Franche-Comté 
-      et le GCS e-Santé Bourgogne vise à améliorer les parcours de santé 
-      grâce aux services numériques. Ce site-support permet de faciliter 
-      le partage de l’information entre les acteurs santé-social. 
+      Le projet eTICSS (Territoire Innovant Coordonné Santé Social),
+      co-piloté par l’Agence Régionale de Santé de Bourgogne-Franche-Comté
+      et le GCS e-Santé Bourgogne vise à améliorer les parcours de santé
+      grâce aux services numériques. Ce site-support permet de faciliter
+      le partage de l’information entre les acteurs santé-social.
   medium: Développement fullstack
   first_image: images/work/eticss/eticss-0.jpg
   images:
@@ -209,16 +210,16 @@ eticss:
 # aulo:
 #   name: Aulo
 #   client: <a href="http://www.aulo.io/" target="_blank">Aulo</a>
-#   slug: Application Web 
+#   slug: Application Web
 #   img_thumbnail: images/work/aulo/aulo-2.jpg
 #   img_banner: images/work/aulo/aulo-banner.jpg
 #   url: /work/aulo.html
 #   category: frontend
 #   link: http://www.aulo.io
 #   description: |
-#       AULO une plateforme qui permet aux membres d'une communauté de réserver 
+#       AULO une plateforme qui permet aux membres d'une communauté de réserver
 #       des sessions vidéos en tête-à-tête avec leurs influenceurs préférés. <br />
-#       Vous êtes fan de @food4life et souhaiteriez lui demander 2/3 tips cuisine ? Elle est peut-être sur Aulo ! 
+#       Vous êtes fan de @food4life et souhaiteriez lui demander 2/3 tips cuisine ? Elle est peut-être sur Aulo !
 #   medium: Direction Artistique • UI-UX • Développement Frontend
 #   first_image: images/work/aulo/aulo-banner-thumbnail.jpg
 #   goal: |
@@ -232,26 +233,26 @@ eticss:
 # irh:
 #   name: Identité RH
 #   client: <a href="http://www.identiterh.com/" target="_blank">Identité RH</a>
-#   slug: Application Web 
+#   slug: Application Web
 #   img_thumbnail: images/work/aulo/aulo-2.jpg
 #   img_banner: images/work/aulo/aulo-banner.jpg
 #   url: /work/aulo.html
 #   category: fullstack
 #   description: |
-#       Identité RH est un cabinet de conseil spécialisé dans les projets de ressources humaines 
-#       et travaille avec la moitié des entreprises du CAC 40. Parmi ses activités, 
-#       Identité RH propose à ses clients la conduite de campagnes d'évaluations à 360° : 
-#       chaque employé est évalué au travers d'un questionnaire construit sur mesure et 
-#       rempli par son supérieur hiérarchique, ses pairs, son équipe et lui-même ! 
-#       Il est évalué à 360°. La conduite d'une campagne 360° implique donc de 
-#       définir un questionnaire, inviter/relancer les évalués et leurs évaluateurs, 
-#       récupérer les résultats, générer les rapports de synthèse, réaliser les entretriens de 
-#       restituation, etc. Dans un grand groupe, cela implique rapidement plusieurs milliers 
+#       Identité RH est un cabinet de conseil spécialisé dans les projets de ressources humaines
+#       et travaille avec la moitié des entreprises du CAC 40. Parmi ses activités,
+#       Identité RH propose à ses clients la conduite de campagnes d'évaluations à 360° :
+#       chaque employé est évalué au travers d'un questionnaire construit sur mesure et
+#       rempli par son supérieur hiérarchique, ses pairs, son équipe et lui-même !
+#       Il est évalué à 360°. La conduite d'une campagne 360° implique donc de
+#       définir un questionnaire, inviter/relancer les évalués et leurs évaluateurs,
+#       récupérer les résultats, générer les rapports de synthèse, réaliser les entretriens de
+#       restituation, etc. Dans un grand groupe, cela implique rapidement plusieurs milliers
 #       de personnes.
 #       </br></br>
-#       A l'automne 2017, Poulpe a accompagné Identité RH dans la "digitalisation" 
-#       de cette activité. Nous avons développé pour Identité RH un outil SAAS 
-#       permettant de conduire en ligne l'intégralité de ces campagnes 360°. 
+#       A l'automne 2017, Poulpe a accompagné Identité RH dans la "digitalisation"
+#       de cette activité. Nous avons développé pour Identité RH un outil SAAS
+#       permettant de conduire en ligne l'intégralité de ces campagnes 360°.
 #   medium: UI-UX • Développement Fullstack
 #   first_image: images/work/aulo/aulo-banner-thumbnail.jpg
 #   goal: |
@@ -261,4 +262,4 @@ eticss:
 #     - url: images/work/aulo/aulo-1.jpg
 #   color_classes: bg-yoo bg-dark
 #   next: wemind
-#   previous: woo 
+#   previous: woo
