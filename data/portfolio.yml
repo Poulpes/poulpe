@@ -21,7 +21,40 @@ woo:
   credits: |
     Direction Artistique : <a href="http://www.maisontsay.com/" target="_blank">Maison Tsay</a>
   color_classes: bg-yoo bg-dark
+  next: irh
+irh:
+  name: Identité RH
+  client: <a href="http://www.identiterh.com/" target="_blank">Identité RH</a>
+  slug: Application Web
+  img_thumbnail: images/work/irh/irh-thumbnail.jpg
+  img_banner: images/work/irh/irh-banner.jpg
+  url: /work/irh.html
+  category: fullstack
+  description: |
+      Identité RH est un cabinet de conseil spécialisé dans les projets de ressources humaines
+      et travaille avec la moitié des entreprises du CAC 40. Parmi ses activités,
+      Identité RH propose à ses clients la conduite de campagnes d'évaluations à 360° :
+      chaque employé est évalué au travers d'un questionnaire construit sur mesure et
+      rempli par son supérieur hiérarchique, ses pairs, son équipe et lui-même !
+      Il est évalué à 360°. La conduite d'une campagne 360° implique donc de
+      définir un questionnaire, inviter/relancer les évalués et leurs évaluateurs,
+      récupérer les résultats, générer les rapports de synthèse, réaliser les entretriens de
+      restituation, etc. Dans un grand groupe, cela implique rapidement plusieurs milliers
+      de personnes.
+      </br></br>
+      A l'automne 2017, Poulpe a accompagné Identité RH dans la "digitalisation"
+      de cette activité. Nous avons développé pour Identité RH un outil SAAS
+      permettant de conduire en ligne l'intégralité de ces campagnes 360°.
+  medium: UI-UX • Développement Fullstack
+  first_image: images/work/irh/irh-1.jpg
+  goal: |
+    Réfléxion Process/UX pour simplifier le pilotage des campagnes 360° et la prise en main de la plateforme par les évalués/évaluateurs </br>
+    Développement backend assurant l'anonymisation des données et la conformité avec le RGPD
+  images:
+    - url: images/work/irh/irh-2.jpg
+  color_classes: bg-yoo bg-dark
   next: yoo
+  previous: woo
 yoo:
   name: YOÔ
   client: <a href="http://www.woo.paris/" target="_blank">WOÔ</a>
@@ -40,11 +73,18 @@ yoo:
       souhaitait une plateforme innovante qui gagnerait en force de frappe
       en permettant à des micro-influenceurs de s’investir dans les campagnes.
       <br /><br />
-      Nous avons donc créé l’application web Yoô.
-      Les influenceurs rejoignent librement la plateforme et synchronisent
-      leurs réseaux sociaux, les marques expriment leurs besoins et sont
-      accompagnées par l’équipe Woô dans la conception, la mise en place et
-      la mesure en temps réel de l'impact de leurs campagnes.
+      Nous avons donc créé l'application web YOÔ. 
+      Les influenceurs rejoignent librement la plateforme et synchronisent 
+      leurs réseaux sociaux, les marques expriment leurs besoins et sont 
+      accompagnées par l'équipe WOÔ dans la conception, la mise en place et 
+      la mesure en temps réel de l'impact de leurs campagnes. 
+      <br/><br />
+      Grâce à notre outil de gestion de projet, WOÔ peut piloter 
+      les campagnes directement depuis la plateforme : création de brief, 
+      gestion des candidatures et des invitations, vue posts et statistiques 
+      de campagnes. 
+      <br /><br />
+      Aujourd'hui, YOÔ a déjà séduit plus de 14 000 influenceurs, 407 marques, pour un total de 88.8 millions de followers cumulés.
   medium: Développement web fullstack • UI-UX • Web Design
   first_image: images/work/yoo/yoo-1.jpg
   goal: |
@@ -55,14 +95,14 @@ yoo:
     un back-office “agence” visant à optimiser certains process métiers. <br />
     Création d’un outil de statistiques pour la mesure des campagnes.
   images:
-    - url: images/work/yoo/yoo-0.jpg
     - url: images/work/yoo/yoo-2.jpg
     - url: images/work/yoo/yoo-3.jpg
+    - url: images/work/yoo/yoo-0.jpg
   credits: |
     Direction Artistique : <a href="http://www.maisontsay.com/" target="_blank">Maison Tsay</a>
   color_classes: bg-yoo bg-dark
   next: wemind
-  previous: woo
+  previous: irh
 wemind:
   name: Wemind
   client: <a href="http://www.wemind.io/" target="_blank">Wemind</a>
@@ -94,48 +134,8 @@ wemind:
   credits: |
     Direction Artistique : <a href="http://antonylegrand.com/" target="_blank">Antony Legrand</a>
   color_classes: bg-wemind bg-dark
-  next: watchdogs
-  previous: yoo
-watchdogs:
-  name: Watchdogs
-  client: Agence Ant.
-  slug: Jeu concours
-  link: http://watchdogsfest.ubi.com/
-  img_thumbnail: images/work/watchdogs/watchdogs-thumbnail.jpg
-  img_banner: images/work/watchdogs/watchdogs-banner.jpg
-  url: /work/watchdogs.html
-  category: frontend
-  description: |
-    Pour le lancement du jeu vidéo Watchdogs, Ubisoft organise un jeu concours&nbsp;:
-    les utilisateurs doivent créer une vidéo sur leurs vision des 'hackers'.
-    Le concours s'organise en 4 phases : la phase d'annonce du concours, la phase
-    de participation, l'annonce de la sélection officielle et l'annonce des gagnants.
-  medium: Développement Frontend
-  first_image: images/work/watchdogs/watchdogs-0.jpg
-  images:
-    - url: images/work/watchdogs/watchdogs-1.jpg
-    - url: images/work/watchdogs/watchdogs-2.jpg
-  color_classes: bg-watchdogs bg-dark
-  next: pacorabanne
-  previous: wemind
-pacorabanne:
-  name: Paco Rabanne
-  client: Agence Ant.
-  slug: Jeux concours
-  img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
-  img_banner: images/work/pacorabanne/blackxs-banner.jpg
-  url: /work/pacorabanne.html
-  category: frontend
-  description: |
-      Jeux concours pour promouvoir les parfums Black XS et One Million de Paco Rabanne.
-      Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
-  medium: Développement Frontend
-  videos:
-    - url: images/work/pacorabanne/blackxs.mp4
-    - url: images/work/pacorabanne/onemilion.mp4
-  color_classes: bg-paco bg-dark
   next: mamagoto
-  previous: watchdogs
+  previous: yoo
 mamagoto:
   name: Mamagoto
   client: <a href="http://www.mamagoto.fr/" target="_blank">Mamagoto</a>
@@ -157,6 +157,46 @@ mamagoto:
     - url: images/work/mamagoto/mamagoto-2.jpg
     - url: images/work/mamagoto/mamagoto-3.jpg
   color_classes: bg-mamagoto bg-dark
+  next: pacorabanne
+  previous: wemind
+pacorabanne:
+  name: Paco Rabanne
+  client: Agence Ant.
+  slug: Jeux concours
+  img_thumbnail: images/work/pacorabanne/blackxs-thumbnail.jpg
+  img_banner: images/work/pacorabanne/blackxs-banner.jpg
+  url: /work/pacorabanne.html
+  category: frontend
+  description: |
+      Jeux concours pour promouvoir les parfums Black XS et One Million de Paco Rabanne.
+      Ces jeux sont diffusés sur des écrans tactiles dans des aéroports et boutiques.
+  medium: Développement Frontend
+  videos:
+    - url: images/work/pacorabanne/blackxs.mp4
+    - url: images/work/pacorabanne/onemilion.mp4
+  color_classes: bg-paco bg-dark
+  next: watchdogs
+  previous: mamagoto
+watchdogs:
+  name: Watchdogs
+  client: Agence Ant.
+  slug: Jeu concours
+  link: http://watchdogsfest.ubi.com/
+  img_thumbnail: images/work/watchdogs/watchdogs-thumbnail.jpg
+  img_banner: images/work/watchdogs/watchdogs-banner.jpg
+  url: /work/watchdogs.html
+  category: frontend
+  description: |
+    Pour le lancement du jeu vidéo Watchdogs, Ubisoft organise un jeu concours&nbsp;:
+    les utilisateurs doivent créer une vidéo sur leurs vision des 'hackers'.
+    Le concours s'organise en 4 phases : la phase d'annonce du concours, la phase
+    de participation, l'annonce de la sélection officielle et l'annonce des gagnants.
+  medium: Développement Frontend
+  first_image: images/work/watchdogs/watchdogs-0.jpg
+  images:
+    - url: images/work/watchdogs/watchdogs-1.jpg
+    - url: images/work/watchdogs/watchdogs-2.jpg
+  color_classes: bg-watchdogs bg-dark
   next: kwaala
   previous: pacorabanne
 kwaala:
@@ -185,7 +225,7 @@ kwaala:
     - url: images/work/kwaala/kwaala-3.jpg
   color_classes: bg-kwaala bg-dark
   next: eticss
-  previous: mamagoto
+  previous: watchdogs
 eticss:
   name: eTICSS
   slug: Site statique
@@ -207,6 +247,34 @@ eticss:
     - url: images/work/eticss/eticss-1.jpg
   color_classes: bg-eticss bg-dark
   previous: kwaala
+# sylvaine-delacourte:
+#   name: Sylvaine Delacourte
+#   client: <a href="http://www.sylvaine-delacourte.com/" target="_blank">Sylvaine Delacourte</a>
+#   slug: Application Web
+#   img_thumbnail: images/work/sylvaine/sylvaine-thumbnail.jpg
+#   img_banner: images/work/sylvaine/sylvaine-banner.jpg
+#   url: /work/sylvaine-delacourte.html
+#   category: fullstack
+#   link: http://www.sylvaine-delacourte.com
+#   description: |
+#     Après plus de vingt ans chez Guerlain, Sylvaine Delacourte 
+#     lance sa propre ligne de parfums de niche en novembre 2017. 
+#     Le projet est de travailler des matières premières d'exception 
+#     et de faire vivre une véritable expérience de découverte olfactive. <br/>
+#     Le site d'origine montre vite ses limites. Trop classique, 
+#     il véhicule mal les valeurs de la marque. 
+#     Manquant d'ergonomie, il n'est pas efficace commercialement.
+#     <br/><br/>
+#     Notre intervention : <br/>
+#     Refonte visuelle : beaucoup plus qu'un site marchand, nous avons conçu un voyage olfactif, une immersion dans l'art de la création. <br/>
+#     Reprise UX visant à améliorer la conversion en simplifiant le parcours d'achat <br/>
+#     Automatisations marketing : gestion des paniers abandonnées, segmentation des clients, connexion Facebook Ads
+#   medium: Direction Artistique • UI-UX • Optimisation codebase
+#   first_image: images/work/sylvaine/sylvaine-1.jpg
+#   images:
+#     -url: images/work/sylvaine/sylvaine-2.jpg
+#   next:
+#   previous:
 # aulo:
 #   name: Aulo
 #   client: <a href="http://www.aulo.io/" target="_blank">Aulo</a>
@@ -230,36 +298,39 @@ eticss:
 #   color_classes: bg-yoo bg-dark
 #   next: wemind
 #   previous: woo
-# irh:
-#   name: Identité RH
-#   client: <a href="http://www.identiterh.com/" target="_blank">Identité RH</a>
+# resteo:
+#   name: Resteo
+#   client: <a href="http://www.resteo.co/" target="_blank">Resteo</a>
 #   slug: Application Web
-#   img_thumbnail: images/work/aulo/aulo-2.jpg
-#   img_banner: images/work/aulo/aulo-banner.jpg
-#   url: /work/aulo.html
-#   category: fullstack
+#   img_thumbnail: images/work/resteo/resteo-thumbnail.jpg
+#   img_banner: images/work/resteo/resteo-banner.jpg
+#   url: /work/resteo.html
+#   category: frontend
+#   link: http://www.resteo.co
 #   description: |
-#       Identité RH est un cabinet de conseil spécialisé dans les projets de ressources humaines
-#       et travaille avec la moitié des entreprises du CAC 40. Parmi ses activités,
-#       Identité RH propose à ses clients la conduite de campagnes d'évaluations à 360° :
-#       chaque employé est évalué au travers d'un questionnaire construit sur mesure et
-#       rempli par son supérieur hiérarchique, ses pairs, son équipe et lui-même !
-#       Il est évalué à 360°. La conduite d'une campagne 360° implique donc de
-#       définir un questionnaire, inviter/relancer les évalués et leurs évaluateurs,
-#       récupérer les résultats, générer les rapports de synthèse, réaliser les entretriens de
-#       restituation, etc. Dans un grand groupe, cela implique rapidement plusieurs milliers
-#       de personnes.
-#       </br></br>
-#       A l'automne 2017, Poulpe a accompagné Identité RH dans la "digitalisation"
-#       de cette activité. Nous avons développé pour Identité RH un outil SAAS
-#       permettant de conduire en ligne l'intégralité de ces campagnes 360°.
-#   medium: UI-UX • Développement Fullstack
-#   first_image: images/work/aulo/aulo-banner-thumbnail.jpg
+#       Resteo est une jeune start-up de la FoodTech qui s'est donnée 
+#       pour mission d'aider les restaurateurs à mieux piloter leur activité. 
+#       Chaque jour les restaurateurs uploadent sur Resteo leurs extraits 
+#       de tickets de caisse. De ces données, l'app calcule et dérive 
+#       automatiquement les KPI de Business Inteligence à suivre et propose 
+#       des dashboards de data-visualisation optimisés: CA à date, 
+#       historique et suivi du CA, du ticket moyen et du nombre de couverts 
+#       par semaine, mois, années, indicateurs de performance par rapport à 
+#       la concurrence, prévision du nombre de couverts, etc.
+#       <br/><br/>
+#       Depuis l'été 2017, Poulpe accompagne Resteo dans sa réfléxion produit 
+#       et son architecture technique (un backend API/DataScience Flask/Python + 
+#       un frontent pure React/Redux ). A l'automne 2017, nous avons 
+#       développé la première version de l'app de front (React/Redux). 
+#   medium: Développement Frontend
+#   first_image: images/work/resteo/resteo-1.jpg
 #   goal: |
-#     - Refonte complète de l'UX pour améliorer et simplifier les parcours utilisateurs
-#     - Création d'une identité graphique pour renforcer le discours
+#     Accompagnement produit et technique <br />
+#     Développement d'une app front-end pure optimisée (organisation de la data, optimisation du code, minimisation du nombre de requêtes)<br />
+#     Data-visualisation custom et dynamique
 #   images:
-#     - url: images/work/aulo/aulo-1.jpg
+#     - url: images/work/resteo/resteo-1.jpg
 #   color_classes: bg-yoo bg-dark
 #   next: wemind
 #   previous: woo
+
