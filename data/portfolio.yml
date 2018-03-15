@@ -1,3 +1,33 @@
+aulo:
+  name: Aulo
+  client: <a href="https://www.linkedin.com/company/18091892/" target="_blank">Aulo</a>
+  slug: Application Web
+  img_thumbnail: images/work/aulo/aulo-banner-thumbnail.jpg
+  img_banner: images/work/aulo/aulo-banner.jpg
+  url: /work/aulo.html
+  category: frontend
+  link: http://labs.aulo.io
+  description: |
+      AULO une plateforme qui permet aux membres d'une communauté de réserver
+      des sessions vidéos en tête-à-tête avec leurs influenceurs préférés. <br />
+      Vous êtes fan de @food4life et souhaiteriez lui demander 2/3 tips cuisine ? Elle est peut-être sur Aulo !
+      <br /><br />
+      <span class="text-italic">Début 2018, Aulo revoit son business model 
+      pour s’orienter sur du B to B, affaire à suivre 
+      <a href="https://www.linkedin.com/company/18091892/" target="_blank">ici</a>
+      </span>
+  medium: Direction Artistique • UI-UX • Développement Frontend
+  first_image: images/work/aulo/aulo-4.jpg
+  goal: |
+    - Refonte complète de l'UX pour améliorer et simplifier les parcours utilisateurs <br />
+    - Création d'une identité graphique pour renforcer le discours
+  images:
+    - url: images/work/aulo/aulo-1.jpg
+    - url: images/work/aulo/aulo-2.jpg
+    - url: images/work/aulo/aulo-3.jpg
+  color_classes: bg-yoo bg-dark
+  next: wemind
+  previous: woo
 woo:
   name: WOÔ
   client: <a href="http://www.woo.paris/" target="_blank">WOÔ</a>
@@ -275,29 +305,6 @@ eticss:
 #     -url: images/work/sylvaine/sylvaine-2.jpg
 #   next:
 #   previous:
-# aulo:
-#   name: Aulo
-#   client: <a href="http://www.aulo.io/" target="_blank">Aulo</a>
-#   slug: Application Web
-#   img_thumbnail: images/work/aulo/aulo-2.jpg
-#   img_banner: images/work/aulo/aulo-banner.jpg
-#   url: /work/aulo.html
-#   category: frontend
-#   link: http://www.aulo.io
-#   description: |
-#       AULO une plateforme qui permet aux membres d'une communauté de réserver
-#       des sessions vidéos en tête-à-tête avec leurs influenceurs préférés. <br />
-#       Vous êtes fan de @food4life et souhaiteriez lui demander 2/3 tips cuisine ? Elle est peut-être sur Aulo !
-#   medium: Direction Artistique • UI-UX • Développement Frontend
-#   first_image: images/work/aulo/aulo-banner-thumbnail.jpg
-#   goal: |
-#     - Refonte complète de l'UX pour améliorer et simplifier les parcours utilisateurs
-#     - Création d'une identité graphique pour renforcer le discours
-#   images:
-#     - url: images/work/aulo/aulo-1.jpg
-#   color_classes: bg-yoo bg-dark
-#   next: wemind
-#   previous: woo
 # resteo:
 #   name: Resteo
 #   client: <a href="http://www.resteo.co/" target="_blank">Resteo</a>
