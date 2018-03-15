@@ -26,8 +26,7 @@ aulo:
     - url: images/work/aulo/aulo-2.jpg
     - url: images/work/aulo/aulo-3.jpg
   color_classes: bg-yoo bg-dark
-  next: wemind
-  previous: woo
+  next: woo
 woo:
   name: WOÔ
   client: <a href="http://www.woo.paris/" target="_blank">WOÔ</a>
@@ -51,6 +50,7 @@ woo:
   credits: |
     Direction Artistique : <a href="http://www.maisontsay.com/" target="_blank">Maison Tsay</a>
   color_classes: bg-yoo bg-dark
+  previous: aulo
   next: irh
 irh:
   name: Identité RH
