@@ -1,8 +1,35 @@
+sylvaine-delacourte:
+  name: Sylvaine Delacourte
+  client: <a href="http://www.sylvaine-delacourte.com/" target="_blank">Sylvaine Delacourte</a>
+  slug: Application Web
+  img_thumbnail: images/work/sylvaine/sylvaine-banner-thumbnail.jpg
+  img_banner: images/work/sylvaine/sylvaine-banner.jpg
+  url: /work/sylvaine-delacourte.html
+  category: fullstack
+  link: http://www.sylvaine-delacourte.com
+  description: |
+    Après plus de vingt ans chez Guerlain, Sylvaine Delacourte 
+    lance sa propre ligne de parfums de niche en novembre 2017. 
+    Le projet est de travailler des matières premières d'exception 
+    et de faire vivre une véritable expérience de découverte olfactive. <br/>
+    Le site d'origine montre vite ses limites. Trop classique, 
+    il véhicule mal les valeurs de la marque. 
+    Manquant d'ergonomie, il n'est pas efficace commercialement.
+    <br/><br/>
+    Notre intervention : <br/>
+    Refonte visuelle : beaucoup plus qu'un site marchand, nous avons conçu un voyage olfactif, une immersion dans l'art de la création. <br/>
+    Reprise UX visant à améliorer la conversion en simplifiant le parcours d'achat <br/>
+    Automatisations marketing : gestion des paniers abandonnées, segmentation des clients, connexion Facebook Ads
+  medium: Direction Artistique • UI-UX • Optimisation codebase
+  first_image: images/work/sylvaine/sylvaine-1.jpg
+  images:
+    - url: images/work/sylvaine/sylvaine-2.jpg
+  next: aulo
 aulo:
   name: Aulo
   client: <a href="https://www.linkedin.com/company/18091892/" target="_blank">Aulo</a>
   slug: Application Web
-  img_thumbnail: images/work/aulo/aulo-banner-thumbnail.jpg
+  img_thumbnail: images/work/aulo/aulo-4.jpg
   img_banner: images/work/aulo/aulo-banner.jpg
   url: /work/aulo.html
   category: frontend
@@ -277,34 +304,6 @@ eticss:
     - url: images/work/eticss/eticss-1.jpg
   color_classes: bg-eticss bg-dark
   previous: kwaala
-# sylvaine-delacourte:
-#   name: Sylvaine Delacourte
-#   client: <a href="http://www.sylvaine-delacourte.com/" target="_blank">Sylvaine Delacourte</a>
-#   slug: Application Web
-#   img_thumbnail: images/work/sylvaine/sylvaine-thumbnail.jpg
-#   img_banner: images/work/sylvaine/sylvaine-banner.jpg
-#   url: /work/sylvaine-delacourte.html
-#   category: fullstack
-#   link: http://www.sylvaine-delacourte.com
-#   description: |
-#     Après plus de vingt ans chez Guerlain, Sylvaine Delacourte 
-#     lance sa propre ligne de parfums de niche en novembre 2017. 
-#     Le projet est de travailler des matières premières d'exception 
-#     et de faire vivre une véritable expérience de découverte olfactive. <br/>
-#     Le site d'origine montre vite ses limites. Trop classique, 
-#     il véhicule mal les valeurs de la marque. 
-#     Manquant d'ergonomie, il n'est pas efficace commercialement.
-#     <br/><br/>
-#     Notre intervention : <br/>
-#     Refonte visuelle : beaucoup plus qu'un site marchand, nous avons conçu un voyage olfactif, une immersion dans l'art de la création. <br/>
-#     Reprise UX visant à améliorer la conversion en simplifiant le parcours d'achat <br/>
-#     Automatisations marketing : gestion des paniers abandonnées, segmentation des clients, connexion Facebook Ads
-#   medium: Direction Artistique • UI-UX • Optimisation codebase
-#   first_image: images/work/sylvaine/sylvaine-1.jpg
-#   images:
-#     -url: images/work/sylvaine/sylvaine-2.jpg
-#   next:
-#   previous:
 # resteo:
 #   name: Resteo
 #   client: <a href="http://www.resteo.co/" target="_blank">Resteo</a>
