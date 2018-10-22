@@ -1,8 +1,34 @@
+atelier-gmd:
+  name: Atelier GMD
+  client: <a href="http://www.ateliergmd.com/" target="_blank">Atelier GMD</a>
+  slug: Application Web
+  img_thumbnail: images/work/gmd/gmd-banner-thumbnail.jpg
+  img_banner: images/work/gmd/gmd-banner.jpg
+  url: /work/atelier-gmd.html
+  category: fullstack
+  link: http://www.ateliergmd.com
+  description: |
+    Atelier GMD est un studio d'architecture travaillant autant sur des projets résidentiels 
+    de grand standing pour des particuliers que pour des entreprises souhaitant transposer une identité 
+    spécifique à l'architecture des espaces qu'elles occupent : bars, restaurants, concept-store, bureaux...
+    <br/><br/>
+    Notre intervention : <br/>
+    En plus de vouloir présenter ses projets de manière esthétique, l'Atelier GMD avait besoin d'un backoffice
+    leur permettant de faire vivre leur réalisation selon le projet. Nous avons donc conçu le backoffice
+    pour que l'atelier puisse dessiner chaque projet, écran par écran.
+  medium: Optimisation webdesign • Développement fullstack
+  first_image: images/work/gmd/gmd-1.jpg
+  goal: |
+    - Création d'un backoffice simple d'utilisation, mais autorisant une grande liberté de mise en page.
+  images:
+    - url: images/work/gmd/gmd-3.jpg
+    - url: images/work/gmd/gmd-2.jpg
+  next: sylvaine-delacourte
 sylvaine-delacourte:
   name: Sylvaine Delacourte
   client: <a href="http://www.sylvaine-delacourte.com/" target="_blank">Sylvaine Delacourte</a>
   slug: Application Web
-  img_thumbnail: images/work/sylvaine/sylvaine-banner-thumbnail.jpg
+  img_thumbnail: images/work/sylvaine/sylvaine-2.jpg
   img_banner: images/work/sylvaine/sylvaine-banner.jpg
   url: /work/sylvaine-delacourte.html
   category: fullstack
@@ -24,6 +50,7 @@ sylvaine-delacourte:
   first_image: images/work/sylvaine/sylvaine-1.jpg
   images:
     - url: images/work/sylvaine/sylvaine-2.jpg
+  previous: atelier-gmd
   next: aulo
 aulo:
   name: Aulo
@@ -53,6 +80,7 @@ aulo:
     - url: images/work/aulo/aulo-2.jpg
     - url: images/work/aulo/aulo-3.jpg
   color_classes: bg-yoo bg-dark
+  previous: sylvaine-delacourte
   next: woo
 woo:
   name: WOÔ
