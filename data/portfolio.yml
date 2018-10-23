@@ -10,12 +10,12 @@ atelier-gmd:
   description: |
     Atelier GMD est un studio d'architecture travaillant autant sur des projets résidentiels 
     de grand standing pour des particuliers que pour des entreprises souhaitant transposer une identité 
-    spécifique à l'architecture des espaces qu'elles occupent : bars, restaurants, concept-store, bureaux...
+    spécifique à l'architecture des espaces qu'elles occupent : bars, restaurants, concept-stores, bureaux...
     <br/><br/>
     Notre intervention : <br/>
-    En plus de vouloir présenter ses projets de manière esthétique, l'Atelier GMD avait besoin d'un backoffice
-    leur permettant de faire vivre leur réalisation selon le projet. Nous avons donc conçu le backoffice
-    pour que l'atelier puisse dessiner chaque projet, écran par écran.
+    En plus de vouloir présenter ses créations de manière esthétique, Atelier GMD avait besoin d'un backoffice
+    lui permettant d'adapter la mise en page aux spécificités de ses projets. Nous avons imaginer une UX permettant
+    à Atelier GMD de dessiner chaque projet, écran par écran.
   medium: Optimisation webdesign • Développement fullstack
   first_image: images/work/gmd/gmd-1.jpg
   goal: |
