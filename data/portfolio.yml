@@ -1,3 +1,35 @@
+resteo:
+  name: Resteo
+  client: <a href="http://www.resteo.co/" target="_blank">Resteo</a>
+  slug: Application Web
+  img_thumbnail: images/work/resteo/resteo-banner-thumbnail.jpg
+  img_banner: images/work/resteo/resteo-banner.jpg
+  url: /work/resteo.html
+  category: frontend
+  link: http://www.resteo.co
+  description: |
+    Resteo est une jeune start-up de la FoodTech qui s'est donnée pour mission d'aider les 
+    restaurateurs à piloter leur activité. Concrètement Resteo leur permet de contrôler / ajuster 
+    quotidiennement le bon fonctionnement de leurs restaurants <em>(CA du Jour vs. Année précédente, 
+    Couvert moyen, etc.)</em> et d'étudier en détail / planifier des modifications plus structurelles 
+    à apporter <em>(décomposition par type de plats, croisement calendrier événementiels performance, 
+    etc.)</em>.
+    <br /><br/>
+    Depuis l'été 2017, Poulpe accompagne Resteo dans sa réfléxion produit et son développement 
+    technique (Datascience Python, Backend/API Rails, FrontEnd React/Redux ).
+    <br />
+    <a href="">En savoir plus</a>
+  medium: Accompagne produit • Architecture technique • Développement frontend
+  first_image: images/work/resteo/resteo-1.jpg
+  goal: |
+    - Accompagnement produit et technique <br />
+    - Développement d'une app front-end React Redux (organisation du store, optimisation des calls)<br />
+    - Data-visualisation custom et dynamique
+  images:
+    - url: images/work/resteo/resteo-3.jpg
+    - url: images/work/resteo/resteo-2.jpg
+    - url: images/work/resteo/resteo-4.jpg
+  next: atelier-gmd.html
 atelier-gmd:
   name: Atelier GMD
   client: <a href="http://www.ateliergmd.com/" target="_blank">Atelier GMD</a>
@@ -23,6 +55,7 @@ atelier-gmd:
   images:
     - url: images/work/gmd/gmd-3.jpg
     - url: images/work/gmd/gmd-2.jpg
+  prev: resteo
   next: sylvaine-delacourte
 sylvaine-delacourte:
   name: Sylvaine Delacourte
