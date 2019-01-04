@@ -1,0 +1,33 @@
+.job {
+  background-color: #f1f1f1;
+  hr {
+    border-top: 1px solid #d8d8d8;
+  }
+  h2 {
+    font-size: 24px;
+    font-style: italic;
+  }
+  .agency-container a {
+    font-weight: 700;
+    color: $poulpe-orange;
+    text-decoration: underline;
+  }
+  span.text-underline {
+    text-decoration: underline;
+  }
+  .flex {
+    iframe {
+      margin-right: 20px;
+    }
+  }
+  p {
+    margin: 10px 0;
+  }
+  a.btn-poulpe {
+    color: white;
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+  }
+}
