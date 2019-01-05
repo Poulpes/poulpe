@@ -171,9 +171,7 @@
   </div>
 </div>
 
-<div class="map-container hidden-xs">
-  <div id="map" style="width: 100%; height: 60vh;">
-  </div>
+<div class="map-container hidden-xs" style="background-image: url( <%= image_path('map.png') %> )">
   <div class="map-info text-center">
     <h2 class="text-center">Nous trouver</h2>
     <div class="line"></div>
@@ -236,23 +234,3 @@
 
 <%= partial 'insta_feed' %>
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx3WH0kpKancawHg8STM60LCLwdo-VIqw"></script>
-
-<script type="text/javascript">
-  var myLatlng = new google.maps.LatLng(48.8678649, 2.3688660000000255);
-
-  var myOptions = {
-    zoom: 16,
-    center: myLatlng,
-    scrollwheel: false,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    styles: [{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"stylers":[{"hue":"#00aaff"},{"saturation":-100},{"gamma":2.15},{"lightness":12}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"lightness":24}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}] 
-  };
-
-  var map = new google.maps.Map(document.getElementById('map'), myOptions);
-  var marker = new google.maps.Marker({
-    position: myLatlng,
-    map: map,
-    title: "You are here!"
-  });
-</script>
